@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 15px;
+  color: #222;
+  font-family: "Quicksand", sans-serif;
+  width: 100% !important;
+  height: 100%;
+}
+.Cards_section {
+  width: 100%;
+  height:auto !important;
+  background-color: #f3f6f7;}
+
+.Giving_banner {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(rgba(0.6, 0, 0.5, 0.4), rgba(0.6, 0, 0.5, 0.4)),
+    url("../folwImages/giving.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 0px !important;
+}
+.Cards_section .container{
+  background: #fff;
+  padding-bottom: 30px!important;
+}
+.Giving_banner .row {
+  position: relative;
+  padding-top: 100px;
+
+}
+.Giving_banner h1 {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: 20px;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.Giving_banner p {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0px;
+  width:80%;
+}
+.Give-intro {
+  margin-top: 20px;
+  width:80%;
+  margin: auto;
+}
+.Give-intro h5 {
+  text-align: center;
+  padding: 2rem;
+  font-size: 25px !important;
+  color: rgb(33, 104, 175);
+  font-weight: bold;
+}
+/*Cards============================*/
+.Give-img-container {
+  width: 25rem;
+  display: inline-block;
+  padding: 1rem;
+  margin: auto;
+  border: 3px solid silver;
+  box-shadow: 5px 5px rgb(139, 154, 158), 10px 10px rgb(0, 162, 255), 15px 15px rgb(154, 228, 209);
+}
+
+.Give-img-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.Give-img-container .bankImg {
+  width: 4rem;
+  height: 4rem;
+  padding-top: 1.5rem;
+}
+.Give-img-container figure {
+  overflow: hidden;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.give-img-zoom img {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+.give-img-zoom:hover img {
+  transform: scale(1.5);
+}
+.give-img-zoom h5,
+p {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.give-img-zoom p {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+@media only screen and (max-width:1024px) {
+  .Cards_section {
+  width: 100%;
+  height:auto !important;
+  background-color:transparent!important;
+}
+  .container .row{
+    position: relative;
+    left:-3px;
+    margin-bottom: 3rem!important;
+  }
+  .Give-img-container {
+    margin-top: 1rem;   
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .Giving_banner h1 {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top:20px;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .Giving_banner {
+top: -80px!important;
+position: relative;
+width:100%;
+  }
+  .Giving_banner p {
+    color: #fff;
+    width:100%;
+    font-size: 1.2rem;
+  }
+  .Give-intro {
+     width:100%;
+     position: relative;
+     top: 30px!important;
+    
+  }
+  .Give-img-container {
+    width:90%;
+    display:block;
+    margin: auto!important;
+    padding-top: 3rem;
+    
+    border: 3px solid silver;
+    box-shadow:none;
+  }
+  .Cards_section .container .row{
+    position: relative;
+    top:-80px;
+    left:-3px;
+    margin-bottom: 5rem;
+  }
+  .Give-img-container .bankImg {
+    width: 4rem;
+    height: 4rem;
+    padding-top: 1.5rem;
+    margin: auto;
+  }
+  .Give-img-container figure {
+    overflow: hidden;
+    margin: 0px 10px;
+    cursor: pointer;
+  }
+  .give-img-zoom img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+  }
+  .give-img-zoom:hover img {
+    transform: scale(1.5);
+  }
+  .give-img-zoom h5,
+  p {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .give-img-zoom p {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center!important;
+  }
+  .give-img-zoom li{
+    text-align: center;
+    font-size: 1rem!important;
+    font-weight: bold;
+  }
+  
+
+}
+
+@media only screen and (max-width:568px) {
+  .Cards_section .container .row{
+    position: relative;
+    top:-40px;
+    left:-3px;
+    margin-bottom: -60px!important;
+  }
+  .Give-intro {
+    width:100%;
+    position: relative;
+    top:-50px!important;
+   
+ }
+ .Give-intro h5 {
+  font-size: 1.2rem!important;
+   
+  }
+}
+@media only screen and (max-width:480px) {
+  .Cards_section .container .row{
+    position: relative;
+    top:-40px;
+    left:-3px;
+    margin-bottom: -60px!important;
+  }
+  .Give-intro {
+    width:100%;
+    position: relative;
+    top:-50px!important;
+   
+ }
+ .Give-intro h5 {
+font-size: 1rem!important;
+ 
+}
+.Giving_banner h1 {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.Giving_banner p {
+  color: #fff;
+  font-size: 1rem;
+  padding: 0px;
+  width:100%;
+}
+}

@@ -1,0 +1,70 @@
+.locationRow{
+    height:600px;
+   width:100%;
+   position: relative;
+   top:0px;
+   margin-bottom: -50px;
+ }
+ 
+ 
+ .ChurchLocate h3{
+   text-align: center;
+   color: #1fa67a;
+   font-size: 50px;
+   padding-bottom: 20px;
+   animation: mymove 5s infinite;
+   position: relative;
+   top:0px;
+    }
+   .mapp iframe{
+     width:100%;
+     height:650px;
+     position: relative;
+     top: 0px !important;
+     
+    
+   }
+
+.mapp{
+    position: relative;
+    top:-12rem;
+    z-index: -1;
+}
+
+@media only screen and (max-width:568px){
+    .locationRow{
+        height:600px;
+       width:100%;
+       position: relative;
+       top:0px;
+       margin-bottom: -50px;
+     }
+     
+     
+     .ChurchLocate h3{
+       text-align: center;
+       color: #1fa67a;
+       font-size: 1.5rem;
+       padding-bottom: 20px;
+       animation: mymove 5s infinite;
+       position: relative;
+       top:0px;
+       font-weight: bold;
+        }
+       .mapp iframe{
+         width:100%;
+         height:650px;
+         position: relative;
+         top: 0px !important;
+         
+        
+       }
+    
+    .mapp{
+        position: relative;
+        top:-12rem;
+        z-index: -1;
+    }
+     
+}
+ 

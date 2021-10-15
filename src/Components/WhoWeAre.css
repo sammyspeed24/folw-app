@@ -1,0 +1,290 @@
+
+body{
+  padding: 0px;margin: 0px;
+  overflow-x: hidden;
+}
+/*===================================DEPARTMENT=============================*/
+.carousel{
+  position: relative;
+  top:0px;
+}
+.WhoWeAre {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  top: 0px;
+  margin-bottom: 230px!important;
+}
+.WhoWeAre .title {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  url("../folwImages/cross.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 30rem !important;
+  border-bottom: 1px solid #fff;
+}
+.WhoWeAre .carousel-inner{
+  position: relative;
+  top: -3rem !important;
+  text-align: center;
+  color:#fff;
+}
+.WhoWeAre #myCarousel{
+  position: relative;
+  top: -20% !important;
+  margin-bottom:-130px;
+}
+.WhoWeAre .carousel-control-prev-icon, .WhoWeAre .carousel-control-next-icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  color: aqua!important;
+  background-color:aqua!important;
+  border-radius: 50px!important;
+  padding: 3px!important;
+}
+.WhoWeAre .carousel-indicators{
+  color: aqua!important;
+  top:50%!important;
+  position: absolute;
+  margin-top: 0px;
+}  
+.WhoWeAre .carousel-indicators>.active{
+background-color: aqua;
+}
+.WhoWeAre .title h1{
+  text-align: center;
+  color:#84e6c5;
+  top:60px;
+  position: relative;
+  font-size:5rem;
+  letter-spacing: 20px;
+  font-weight: bolder;
+}
+.WhoWeAre .carousel_para{
+  font-size: 1.3rem;
+  text-align:center;
+ }
+.WhoWeAre .carouselWrapper_title{
+  font-size: 2rem;
+  font-weight: bold;
+}
+/*======================CONTENTS=====================*/
+.Contents {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+    url("../folwImages/picnic.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: top center;
+  background-attachment: fixed;
+  height: 100% !important;
+  
+}
+.Content_title{
+  padding-left: 3rem;
+font-size: 3rem;
+font-weight: bolder;
+color:#fff;
+position: relative;
+}
+.Content_para{
+  padding-left: 3rem;
+  font-size: 1.2rem;
+   color:#fff;
+   text-align: justify;
+}
+.Contents .rowjom{
+  position: relative;
+  top:30%;
+  width:80%;
+  
+  
+ }
+ @media only screen and (max-width:768px) {
+  .Contents .rowjom{
+    position: relative;
+    top:30%;
+    width:80%;
+    
+    
+   }
+ }
+@media only screen and (max-width:768px) {
+  .WhoWeAre {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 0px!important;
+    margin-bottom: 230px!important;
+  }
+  .WhoWeAre .title h1{
+    text-align: center;
+    color:#84e6c5;
+    top:60px;
+    position: relative;
+    font-size:4rem;
+    letter-spacing: 10px!important;
+    font-weight: bolder;
+  
+  }
+  .WhoWeAre .carousel_para{
+    font-size: 1.1rem;
+    text-align: center;
+   }
+  .WhoWeAre .carouselWrapper_title{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .WhoWeAre #myCarousel{
+    position: relative;
+    top: -5rem !important;
+    margin-top: -40px!important;
+    margin-bottom:-130px;
+  }
+  
+  .WhoWeAre #myCarousel{
+    position: relative;
+    top: -30% !important;
+    margin-bottom:-130px;
+  }
+.WhoWeAre .carousel-indicators{
+  color: aqua!important;
+  top:70%!important;
+  position: absolute;
+  margin-top: 0px;
+}  
+
+.WhoWeAre .carousel-indicators>.active{
+background-color: aqua;
+}
+
+  .Content_title{
+    padding-left: 3rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color:#fff;
+  position: relative;
+  
+  }
+  .Content_para{
+     font-size: 1.2rem;
+     color:#fff;
+      width:80%;
+      margin: auto;
+      padding: 0px;
+      line-height: 2rem;
+      text-align:justify;
+  }
+  .Contents .rowjom{
+    position: relative;
+    top:20%;
+     background: transparent;
+    height:0rem;
+    width:90%;
+    margin: auto;
+    position: relative;
+
+    
+   }
+   .Contents{
+     width:100%;
+     margin: auto;
+   }
+}
+/*===================================DEPARTMENT=============================*/
+@media only screen and (max-width:568px) {
+  .WhoWeAre {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 0%!important;
+    margin-bottom: 230px!important;
+  }
+  .WhoWeAre .title h1{
+    text-align: center;
+    color:#84e6c5;
+    top:60px;
+    position: relative;
+    font-size:2.3rem;
+    letter-spacing: 10px!important;
+    font-weight: bolder;
+  
+  }
+  
+  .WhoWeAre .carousel_para{
+    font-size: 1.1rem;
+    text-align: center;
+    position: relative;
+    top:-20px;
+    left:4px;
+   }
+  .WhoWeAre .carouselWrapper_title{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .WhoWeAre #myCarousel{
+    position: relative;
+    top: -40% !important;
+    margin-bottom:-130px;
+  }
+  
+  
+
+.WhoWeAre .carousel-indicators{
+  color: aqua!important;
+  top:70%!important;
+  position: absolute;
+  margin-top: 0px;
+}  
+.WhoWeAre .carousel-indicators>.active{
+background-color: aqua;
+}
+
+  .Content_title{
+    padding-left: 2rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  color:#fff;
+  position: relative;
+  
+  } 
+  .Contents .rowjom{
+    position: relative;
+    top:20%;
+     background: transparent;
+    height:0rem;
+    width:90%;
+    text-align:center;
+    
+   }
+   .Content_para {
+    padding-left: 3rem;
+    font-size: 1.1rem;
+    color: #fff;
+    position: relative;
+    /* left: -10px; */
+    width: 90%;
+    /* text-align: center; */
+    margin: auto;
+}
+}
+
+/*===================================DEPARTMENT=============================*/
+@media only screen and (max-width:480px) {
+  .Content_para {
+    padding-left: 3rem;
+    font-size: 1rem;
+    color: #fff;
+    position: relative;
+    /* left: -10px; */
+    width: 100%;
+    /* text-align: center; */
+    margin: auto;
+    margin-bottom:150px;
+}
+}

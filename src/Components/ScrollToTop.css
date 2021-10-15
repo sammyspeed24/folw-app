@@ -1,0 +1,87 @@
+  /*=======================SCROLL TO TOP===================*/
+  .scrollto-top{
+    width:45px;
+    height:45px;
+    z-index: 1;
+    position:fixed;
+    bottom: 20px;
+    left:90%;
+    background-color:rgb(74, 214, 137);
+    border-radius: 100%;
+    cursor: pointer;
+  }
+  
+  .scrollbar{
+    color:floralwhite;
+     position: relative;
+    animation:scrollTop 0.5s alternate ease infinite;
+    left:12px!important;
+    margin-top:10px!important;
+    font-size: 25px;
+    font-weight: bolder;
+    
+  }
+  
+  @keyframes scrollTop {
+    from{
+      transform: translateY(2px);
+    }
+  
+    to{
+      transform: translateY(-1px);
+    }
+  }
+
+  /*===========================media query 768px==============*/
+  @media only screen and (max-width:768px) {
+    /*=======================SCROLL TO TOP===================*/
+  .scrollto-top{
+    width:45px;
+    height:45px;
+    z-index: 1;
+    position:fixed;
+    bottom: 20px;
+    left:90%;
+    background-color:rgb(74, 214, 137);
+    border-radius: 100%;
+    cursor: pointer;
+  }
+  
+    /*=======================SCROLL TO TOP===================*/
+
+
+  
+}
+  @media only screen and (max-width:568px) {
+      /*=======================SCROLL TO TOP===================*/
+      .scrollto-top{
+        width: 35px;
+        height:35px;
+         left:90%;
+          cursor: pointer;
+      }
+  
+      .scrollbar{
+        left:10px!important;
+        margin-top:8px!important;
+        font-size: 18px!important;
+      }  
+  }
+
+  @media only screen and (min-width:320px) and (max-device-width: 480px) {
+    .scrollto-top{
+      width: 30px;
+      height:30px;
+      z-index: 1;
+    
+    }
+
+    .scrollbar{
+      
+      left:8px!important;
+      margin-top:5px!important;
+      font-size: 18px!important;
+      font-weight: bolder;    
+    }
+    
+  }

@@ -1,0 +1,56 @@
+
+
+@media only screen and (min-width:992px) {
+  
+  *{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  html, body {
+    
+    font-size: 15px;
+    color: #222;
+     font-family: "Quicksand", sans-serif;
+    width: 100%!important; 
+    height:100%;
+  }  
+  .prayerform-contaniner .form_inner {
+    position: relative;
+  
+    background-color: turquoise;
+    transform: translate(-50% -50%) !important;
+  }
+  
+  .prayerform-contaniner {
+    position: relative;
+    margin-top: 120px;
+    background: #f5f5f5;
+  }
+  
+  .form-wrappers input {
+    transform: translate(-50% -50%) !important;
+    left: 12%;
+    width: 300px;
+    top: -30px;
+  
+    position: relative;
+  }
+  .buttonn {
+    width: 300px !important;
+    position: relative;
+    left: 40px;
+  }
+  
+
+  }
+  
+  /*-===================================MEDIA QUERRIES===========================================================================*/
+  /*-===================================MEDIA QUERRIES===========================================================================*/
+  
+  
+  /*=======================================================568==============================*/
+
+
+/*=================================================================768 MEDIA QUERIES==========================================*/
+/*=================================================================768 MEDIA QUERIES==========================================*/

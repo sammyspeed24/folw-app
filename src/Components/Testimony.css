@@ -1,0 +1,193 @@
+
+.TestimonyWrapper{
+    width: 100% !important;
+    height:850px;
+    margin-bottom: 80px!important;
+    position: relative;
+    top:50px;
+    background-color:#fff; 
+    color: #222;
+}
+.TestimonyTitle{
+    position: relative;
+    padding:0px;
+    margin:auto;
+    width: 50% !important;
+    top: 5%;
+    border-bottom: 1px solid #20c997!important;
+    font-weight: bold;
+    font-size: 18px!important; 
+    border-radius: 3%;
+   }
+  .TestimonyTitle h1{
+        font-size: 3rem;
+        font-weight: bold;
+        margin: 2px;
+        text-align: center;
+        color: #1fa67a
+  }
+.Testimony {
+    padding:30px!important;
+    width: 100%!important;
+   margin: auto;
+    }
+    .Testimony p {
+      font-size:1rem;
+      font-weight:100px!important;
+  }
+  .Scripture2{
+    font-size: 1rem!important;
+    color: #fff!important;
+    font-weight: bolder;
+    background: #20c997!important;
+    width: 175px !important;
+    padding: 2px!important;
+    margin: auto;
+    border-radius: 50px!important;
+    position: relative;
+    top: -10px;
+ 
+}
+
+.TestimonyWrapper .carousel-control-prev-icon, .TestimonyWrapper .carousel-control-next-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background-color: rgb(38, 39, 39)!important;
+    border-radius: 50px!important;
+    padding: 3px!important;
+    position: relative;
+    top:-80px;
+}
+/*==========SLIDER CAROUSEL STARTS HERE=============*/
+
+.TestimonyWrapper .Testimony p {
+    font-size: 15px !important;
+    font-weight: bold;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+  
+   }
+   .TestimonyWrapper .carousel-inner .carousel-item img{
+    width:150px;
+    height:150px;
+  }
+ .TestimonyWrapper .carousel-item .titleWrapper{
+margin-top: 5rem;
+text-align: center;
+  }
+.TestimonyWrapper .carousel-indicators{
+   display:none;
+  }  
+ .TestimonyWrapper .carousel-indicators>.active{
+    background-color: aqua;
+}
+.TestimonyWrapper .carousel {
+    position: relative;
+    top:30px;
+}
+.titleWrapper h5 {
+font-weight: bold;
+}
+.titleWrapper p {
+  font-size: 1rem;
+  font-weight: normal!important;
+}
+@media only screen and (max-width:1024px) {
+  .titleWrapper {
+ 
+    width:80%;
+    margin: auto;
+    position: relative;
+    top:-50px;
+    }
+}
+
+  @media only screen and (max-width:768px) {
+    .TestimonyWrapper{
+      width: 80% !important;
+      height:950px;
+      margin: auto !important;
+      margin-bottom: 80px!important;
+      position: relative;
+      top:150px;
+  
+  }
+  .titleWrapper {
+    
+    width:85%;
+    margin: auto;
+    position: relative;
+    top:-50px;
+    }
+    .titleWrapper p {
+      font-size: 1rem;
+      font-weight: normal;
+    }
+    .TestimonyWrapper .carousel-indicators{
+    display:none!important;
+  }  
+  .TestimonyWrapper .Testimony p {
+    font-size: 1rem !important;
+    font-weight:normal;
+    position: relative;
+    left:5px;
+    padding: 20px;
+    text-align: center;
+
+   }
+  
+  }
+      
+  @media only screen and (max-width:568px) {
+.TestimonyWrapper{
+        width: 100% !important;
+        height:700px;
+        margin-bottom: 80px!important;
+        position: relative;
+        top:50px;
+        
+    }
+    
+    .TestimonyWrapper .TestimonyTitle{
+       width:50%;
+        border-bottom: 1px solid#20c997!important;
+        } 
+   .TestimonyWrapper .TestimonyTitle h1{
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 2px;
+        text-align: center;
+        color:#20c997!important;  
+  }
+  .TestimonyWrapper .carousel-indicators{
+    color: aqua!important;
+    top:120px!important;
+    position: absolute;
+    margin-top: 200px;
+}
+.TestimonyWrapper .carousel-inner .carousel-item img{
+  width:100px;
+  height:100px;
+}
+.titleWrapper {
+  color:silver;
+  width:80%;
+  margin: auto;
+  }
+  .titleWrapper h5 {
+     font-weight: bold;
+     font-size: 1.5rem;
+   }
+   .titleWrapper p {
+    font-size: 14px;
+    font-weight: normal!important;
+  }
+
+  
+
+  }

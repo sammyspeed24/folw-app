@@ -1,0 +1,120 @@
+
+.footerContainer{
+  width:100%;
+  background-color:#292a2b;
+  color:rgb(131, 130, 130);
+  height: auto;  
+}
+.ThanksMessage h1{
+    color:rgb(131, 130, 130);
+        padding: 2rem;
+    text-align: center;
+    font-size:2rem;
+    font-weight: bold;
+}
+.SocialMedia{
+  display: inline-block;
+  float: left;
+  padding: 2rem;
+  text-align:justify;
+  
+  }
+.clearContainer::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  ul li{
+    padding: 3px;
+  }
+.footerContainer .container{
+  width:80%;
+  margin-left:80px;
+  margin: auto;
+}
+.footerContainer .row{
+  width:100%;
+  margin: auto;
+}  
+.followUS_ul i{
+  padding: 0px;
+  font-size: 1rem;
+  color:silver;  
+}
+/*=================768px==================*/
+@media only screen and (max-width:768px) { 
+  .footerContainer .container{
+    width: 100% !important;
+  }
+  .SocialMedia{
+    display: inline-block;
+    float: none !important;
+    padding: 0rem;
+    text-align:center;
+    width:100%;
+    
+    }
+    .ThanksMessage h1{
+      color:rgb(131, 130, 130);
+          padding: 2rem;
+      text-align: center;
+      font-size:1.8rem;
+      font-weight: bold;
+  }
+    .SocialMedia ul li{
+      display: inline-block;
+      list-style: none;
+    }
+    .SocialMedia ul li a{
+   padding: 3px;
+   text-decoration: none;
+   color:silver
+    }
+    .footerContainer .followUS_ul i{
+      padding: 4px;
+      font-size:1rem ;
+    }
+}
+@media only screen and (max-width:568px) { 
+  .footerContainer .container{
+    width: 100% !important;
+    margin-bottom: -30px;
+  }
+  .ThanksMessage h1{
+    color:rgb(131, 130, 130);
+        padding: 2rem;
+    text-align: center;
+    font-size:1.3rem;
+    font-weight: bold;
+}
+  .SocialMedia{
+  margin-bottom: 20px;
+    }
+    .SocialMedia ul li{
+      display: inline-block;
+      list-style: none;
+    }
+    .SocialMedia ul li a{
+   padding: 3px;
+   text-decoration: none;
+   color:silver
+    }
+    .footerContainer .followUS_ul i{
+      padding: 4px;
+      font-size:1rem ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 15px;
+  color: #222;
+  font-family: "Quicksand", sans-serif;
+  width: 100% !important;
+}
+.Connect-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+.Connect-container .Connect-Col {
+  justify-content: center;
+  margin-top: 0px;
+  width: 30%;
+}
+
+.Connect_title h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: bold;
+  position: relative;
+  top: 40%;
+  text-align: center;
+}
+.Connect_title {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../folwImages/conect.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  top: 70px !important;
+}
+.connect-overlay {
+  width: 100%;
+  position: absolute;
+  height: 300px;
+  top: 50%;
+  z-index: -1;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #323435;
+  mix-blend-mode: overlay;
+}
+.Connect_title h1 {
+  text-align: center !important;
+  font-size: 50px;
+  color: #fff;
+  position: relative;
+  top: 100px;
+  text-transform: uppercase;
+  padding: 40px;
+  font-weight: bolder;
+}
+
+.Connect-container .Connect-Col img {
+  width: 10rem;
+}
+.prayingHandIMg {
+  font-size: 5rem;
+}
+.CastWrapper h5 {
+  position: relative;
+  top: -82px;
+}
+
+.Connect-container .CastWrapper img {
+  width: 20rem !important;
+  position: relative;
+  top: -50px;
+}
+.HouseWrapper,
+.CastWrapper,
+.PrayerWrapper {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: normal;
+}
+.castbox_btn .btn {
+  font-size: 1.2rem;
+}
+
+.PrayerWrapper h5,
+.HouseWrapper h5,
+.CastWrapper h5 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.PrayerWrapper p,
+.HouseWrapper p {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1rem;
+  position: relative;
+  top: -10px;
+}
+.Link_Prayer {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: normal !important;
+  color: green;
+}
+.PrayerWrapper_btn {
+  color: #fff !important;
+  font-weight: bold;
+  position: relative;
+  top: -20px;
+  left: -10px;
+}
+
+.Link_Prayer:hover {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: normal !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+button:focus {
+  color: #fff !important;
+}
+
+@media only screen and (max-width: 1024px) {
+    .Connect_title {
+      height: 300px;
+        top: 70px !important;
+      }  
+.Connect_title h1 {
+    top: 40%;
+    text-align: center;
+  }
+  .Connect-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+  }
+  .Connect-container .Connect-Col {
+    justify-content: center;
+    margin-top: 0px;
+    width: 25%;
+  }
+
+  .Connect-container .HouseWrapper img {
+    width: 10rem;
+  }
+  .PrayerWrapper_btn {
+    position: relative;
+    top: -60px;
+  }
+  .PrayerWrapper h5 {
+    position: relative;
+    top: -60px;
+  }
+  .PrayerWrapper p {
+    position: relative;
+    top: -60px;
+  }
+  .prayingHandIMg {
+    font-size: 5rem;
+    position: relative;
+    top: -60px;
+  }
+  .CastWrapper h5 {
+    position: relative;
+    top: -135px;
+  }
+
+  .Connect-container .CastWrapper img {
+    width: 15rem !important;
+    position: relative;
+    top: -140px;
+  }
+  .castbox_btn {
+    color: #fff !important;
+    font-weight: bold;
+    position: relative;
+    top: -120px;
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    .Connect_title {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url("../folwImages/conect.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+        top: 50px !important;
+      }  
+.Connect_title h1 {
+    color: #fff;
+    font-size: 3rem !important;
+    font-weight: bold;
+    position: relative;
+    top: 30%;
+    text-align: center;
+  }
+  
+  .Connect-container {
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+  }
+
+  .Connect-container .Connect-Col {
+    justify-content: center;
+    margin-top: 0px;
+    width: 50%;
+    margin: auto;
+  }
+  .Connect-container .Connect-Col img {
+    width: 10rem;
+  }
+  .prayingHandIMg {
+    font-size: 5rem;
+  }
+
+  .PrayerWrapper_btn {
+    position: relative;
+    top: 0px;
+  }
+  .PrayerWrapper h5 {
+    position: relative;
+    top: 0px;
+  }
+  .PrayerWrapper p {
+    position: relative;
+    top: 0px;
+  }
+  .prayingHandIMg {
+    font-size: 5rem;
+    position: relative;
+    top: 0px;
+  }
+  .CastWrapper h5 {
+    position: relative;
+    top:-75px;
+  }
+
+  .Connect-container .CastWrapper img {
+    width: 15rem !important;
+    position: relative;
+    top: -60px;
+  }
+  .castbox_btn {
+    color: #fff !important;
+    font-weight: bold;
+    position: relative;
+    top: -80px;
+    left: 0px;
+  }
+}
+
+
+@media only screen and (max-width: 568px) {
+    .Connect_title {
+        height: 200px;
+        top: 50px !important;
+      }  
+.Connect_title h1 {
+    font-size: 2rem !important;
+    top: 30%;
+     }
+  
+    .Connect-container {
+      display: flex;
+      width: 100%;
+      padding: 30px;
+      justify-content: center;
+      align-items: center;
+      height:900px;
+    }
+    .Connect-container .Connect-Col {
+      justify-content: center;
+      margin-top: 0px;
+      width: 100%;
+      margin: auto;
+    }
+    .HouseWrapper{
+        padding-top: 30px;  
+    }
+    .PrayerWrapper {
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid silver;
+    }
+    .prayingHandIMg {
+      font-size: 5rem;
+      position: relative;
+      top: 0px;
+    }
+    .CastWrapper{
+        position: relative;
+        padding-bottom: 20px;
+        border-bottom: 1px solid silver;
+ }
+    .CastWrapper h5 {
+      position: relative;
+      top:-50px;
+    }
+  
+    .Connect-container .CastWrapper img {
+      width: 15rem !important;
+      position: relative;
+      top: -30px;
+    }
+    .castbox_btn {
+      color: #fff !important;
+      font-weight: bold;
+      position: relative;
+      top: -30px;
+      left: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+        
+    .Connect-container {
+        display: flex;
+        width: 100%;
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+        height:1000px;
+      }
+  }

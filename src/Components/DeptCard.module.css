@@ -1,0 +1,279 @@
+/* *{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  html, body {
+    font-size: 15px;
+    color: #222;
+     font-family: "Quicksand", sans-serif;
+    width: 100%!important;
+    height: 100% !important;
+  }
+    .Deptcards{
+        width:100%;
+        height:600px;
+        background-color:#f5f5f5;
+        position: relative;
+        top:50px;
+    
+      }
+      .DeptcardsTitle{
+        position: relative;
+        padding: 10px;
+        margin:auto;
+        width: 60%;
+        top: 50px;
+        border-bottom: 1px solid#1fa67a;
+        font-weight: bold;  
+      }
+      .DeptcardsWrapper{
+        position: relative;
+        top: 0px !important;
+       height:400px;
+       width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       
+      }
+      .DeptcardsWrapper .card{
+        position: relative;
+        height: 200px!important;
+        width: 12rem;
+        margin: 5px;
+        box-shadow: 5px 10px 20px rgb(0,0, 0, 253)!important;
+     
+        }
+
+        .DeptcardsWrapper .cardBody{
+            position: relative;
+            top: 0px !important;
+            }
+            
+            .DeptcardsWrapper .cardImgTop {
+            width: 12rem!important;
+            height: 100px!important;
+            position: relative;
+            top:0px !important;
+            
+            }
+
+            .Scripture2{
+                font-size: 17px!important;
+                color: #fff;
+                font-weight: bolder;
+                background: #20c997!important;
+                padding: 2px;
+                 border-radius: 50px;
+                text-align: center;
+                width:175px;
+                margin: auto;
+              }
+                   
+             .DeptcardsTitle h3 {
+                font-size: 3rem;
+                font-weight: bold;
+                color: #1fa67a;
+                margin: 2px;
+                text-align: center;
+              }
+              .DeptcardPara{
+                position: relative;
+                top:12%;
+                 width: 100%;
+                 margin: auto;
+                 padding-bottom: 1rem;
+                 font-size: 1.2rem;
+              }
+              
+                .DeptcardsWrapper .cardTitle{
+                position: relative;
+                margin-top: 10%;
+                text-align: center;
+                font-size: 1rem;
+                font-weight: bold;
+              }
+        
+/*=====================================768px=======================*/
+
+/*==================================end 768px===========================*/
+              /* @media only screen and (max-width:360px) {
+                .DeptcardsWrapper{
+                  position: relative;
+                  top: 0px !important;
+                 height:400px;
+                 width: 60%!important;
+                  display: flex;
+                  flex-direction: column;
+                  flex-wrap: wrap;
+                
+                  
+                }
+                .Deptcards{
+                  width:100%;
+                  height:800px;
+                  background-color:#f5f5f5;
+                  position: relative;
+                  top:50px;
+              
+                }
+              }
+              .DeptcardsWrapper{
+                position: relative;
+                top: 0px !important;
+               height:400px;
+               width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+               
+              } */
+/* 
+  @media only screen and (max-width:576px) {
+    .Deptcards{
+      width:100%;
+      height:980px;
+      background-color:#f5f5f5;
+      position: relative;
+      top:50px;
+      margin-bottom: 0px!important;
+  
+    }
+    
+    .DeptcardsTitle{
+      position: relative;
+      padding: 10px;
+      margin:auto;
+      width: 60%;
+      top: 40px!important;
+      border-bottom: 1px solid#1fa67a;
+      font-weight: bold;  
+    }
+          
+    .DeptcardsTitle h3 {
+      font-size: 1.5rem;
+    
+    }
+    .DeptcardPara{
+      position: relative;
+      top:7%;
+       width: 100%;
+       font-size: 1rem;
+      
+    }
+    
+    .DeptcardsWrapper{
+      position: relative;
+      top: 40px !important;
+     height:500px;
+     width: 80%!important;
+     margin: auto;
+      display: flex;
+      
+    }
+    .DeptcardsWrapper .card{
+      position: relative;
+      height: 170px!important;
+      width: 12rem;
+      margin: 0px;
+      box-shadow: 5px 10px 20px rgb(0,0, 0, 253)!important;
+   
+      } 
+  }
+
+   
+@media only screen and (max-width:768px) {
+  .Deptcards{
+    width:100%;
+    height:900px;
+    background-color:#f5f5f5;
+    position: relative;
+    top:50px;
+    margin-bottom: -60px;
+  } 
+  .DeptcardsTitle{
+    position: relative;
+      width: 60%;
+  }
+  .DeptcardsWrapper{
+   top: 120px !important;
+   height:500px;
+   width: 80%!important;
+   margin: auto;
+    display: flex;
+    
+  }
+  .DeptcardsWrapper .card{
+    position: relative;
+    height: 170px!important;
+    width: 12rem;
+    margin: 5px;
+    box-shadow: 5px 10px 20px rgb(0,0, 0, 253)!important;
+ 
+    } 
+    .DeptcardsTitle{
+      position: relative;
+      padding: 10px;
+      margin:auto;
+      width: 60%;
+      top: 50px;
+      border-bottom: 1px solid#1fa67a;
+      font-weight: bold;  
+    }
+          
+    .DeptcardsTitle h3 {
+      font-size: 2.5rem;
+    
+    }
+    .DeptcardPara{
+      position: relative;
+      top:7%;
+       width: 100%;
+       font-size: 1.1rem;
+      
+    }
+} */
+ 
+/*   
+  @media only screen and (max-width:992px) {
+    .Deptcards{
+      width:100%;
+      height:940px;
+      background-color:#f5f5f5;
+      position: relative;
+      top:50px;
+      margin-bottom: -60px;
+  
+    }
+    .DeptcardsTitle{
+      position: relative;
+      padding: 10px;
+      margin:auto;
+      width: 60%;
+      top: 50px;
+      border-bottom: 1px solid#1fa67a;
+      font-weight: bold;  
+    }
+    
+    .DeptcardsWrapper{
+      position: relative;
+      top: 120px !important;
+     height:500px;
+     width: 80%!important;
+     margin: auto;
+      display: flex;
+      
+    }
+    .DeptcardsWrapper .card{
+      position: relative;
+      height: 170px!important;
+      width: 12rem;
+      margin: 5px;
+      box-shadow: 5px 10px 20px rgb(0,0, 0, 253)!important;
+   
+      } 
+  } */
+   

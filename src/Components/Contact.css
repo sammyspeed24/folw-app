@@ -1,0 +1,766 @@
+*{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html, body {
+   font-size: 15px;
+  color: #222;
+   font-family: "Quicksand", sans-serif;
+  width: 100%!important;
+   
+}
+/*===========================*/
+.ContactUs{
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("../folwImages/contactUs.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+
+ 
+}
+.ContactUs h1{
+color:#fff;
+font-size: 4rem;
+font-weight: bold;
+position: relative;
+top:40%;
+text-align: center;
+}
+.ContactPage .row {
+width: 90% !important;
+padding:1rem;
+margin: auto;
+ 
+}
+#col6 p{
+  text-align: justify!important;
+  position: relative;
+  top:-20px;
+  margin-left: 8px;
+
+}
+.ContactPage .col-lg-6 {
+  padding:2rem;
+
+}
+.ContactPage .col-lg-6  h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(33, 104, 175);
+}
+.ContactPage .col-lg-6  p{
+  font-size: 1rem;  
+  color: rgb(33, 104, 175);
+  justify-content:justify!important;
+}
+/* .contact_address {
+  height: 900px;
+  margin-bottom: 0px;
+  position: relative;
+  top: 100px;
+} */
+ .ClickMeWrapper{
+  background-color: #f5f5f5!important;
+  width:450px;
+    height:100px;  
+    text-align: center;
+}
+.ClickMeWrapper h5,p{
+  position: relative;
+  top: 1rem;
+  left: -20px;
+    
+}
+.ClickMeWrapper p{
+  position: relative;
+  top: 1rem;
+  left: -20px;
+    
+}
+.Hand_pointLeft{
+  font-size: 50px;
+  position: relative;
+  top: -80px !important;;
+ left:350px;
+  animation: mymoves 5s infinite;
+} 
+.HandOuterwrapper:hover{
+   background-color: #84e6c5!important;
+  width:450px;
+  height:100px;
+}
+.HandOuter_Link-wrapper p{
+  font-weight: bold;
+  color: rgb(33, 104, 175);
+ font-size: 18px;
+}
+.ClickMeWrapper .Contact_Us{
+  color:maroon!important;
+  font-size: 20px;
+ }
+ 
+.ClickMeWrapper .Contact_Us:hover{
+  color:rgb(16, 124, 22)!important;
+  font-size: 20px;
+  text-decoration: none;
+ }
+
+@keyframes mymoves {
+  from {right: -100px;}
+  to {left: 330px;}
+  }
+.contact_add_row{
+ margin-top: 40px!important;
+ margin-bottom: 40px!important;
+}
+.contact_add_row h1{
+  font-size: 20px;
+  color: rgb(33, 104, 175);
+  font-weight: bold;
+}
+
+.Contact_mapp iframe {
+  width: 100% !important;
+  height: 600px;
+}
+.Contact_mapp {
+  position: relative;
+  top: 0px !important;
+  margin-bottom: 60px;
+}
+
+/*=================================FORM CONTACT============================*/
+#containerRequest{
+  background: #f5f5f5;
+  margin: 100px auto;
+  box-shadow: 1px 1px 1px 4px lightgrey;
+  height: 600px;
+  position: relative;
+  top: 40px;
+  width: 60% !important;
+  margin-bottom: 130px!important;
+}
+.singleItem {
+  margin: 10px 0;
+}
+.Err{
+  color:red;
+}
+
+.Containers {
+  background: #f5f5f5;
+  margin: 100px auto;
+  box-shadow: 1px 1px 1px 4px lightgrey;
+  height: 650px;
+  position: relative;
+  top: 40px;
+  width: 40%;
+}
+.Containers form {
+  padding: 10px;
+}
+
+.Containers label {
+  display: block;
+  letter-spacing: 0.1rem;
+  font-style: italic;
+  margin-bottom: 3px;
+}
+
+.Containers input,
+.Containers textArea {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  box-sizing: 1px 1px 4px rgb(dimgrey);
+}
+
+
+
+.Containers input:focus,
+.Containers textarea:focus {
+  box-shadow: 1px 1px 1px 4px#84e6c5 !important;
+}
+.singleItem {
+  margin: 10px 0;
+}
+.Containers .btn {
+  width: 100%;
+  text-align: center;
+}
+
+
+.Messagesent{
+  width: 300px !important;
+  height: 200px!important;
+  font-size: 15px!important;
+  background-color: rgb(96, 138, 124)!important;
+  position: relative;
+  top: 10px!important;
+  margin-bottom: -20px;
+  color: white!important;
+  
+}
+.Messagesent h1{
+ color: white!important;
+  font-size: 16px!important;
+  text-align: center;
+  padding-top: 10px;
+  }
+  .Messagesent p{
+    color: white!important;
+     font-size: 16px!important;
+     text-align: center;
+     margin:auto;
+     }
+.btn button {
+  width: 100px!important;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  font-size: 16px;
+  border: 1px solid #84e6c5 !important;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  margin-top: -25px;
+  padding: 5px;
+}
+.btn button:hover {
+  width: 100px!important;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  font-size: 16px;
+  border: 1px solid #84e6c5 !important;
+  background-color: #84e6c5 !important;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  margin-top: -25px;
+  padding: 5px;
+  color:white;
+  font-weight: bold;
+}
+
+.invalid{
+  color: red;
+  padding:0px;
+  margin: 0px;;
+}
+/*====================REQUESTfORM-------------*/
+.SendRequestPage {
+  position: relative;
+  top: 60px;
+  margin-bottom: 60px!important;
+}
+.SendRequestPage p {
+  position: relative;
+  top: 60px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  font-size: 20px;
+}
+.SendRequest_title {
+  top: 40px;
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+}
+.form-success{
+  position: relative;
+  text-align: center;
+  background-color: rgb(84, 97, 110);
+  width: 500px;
+  height: 300px;
+  padding: 40px;
+  color:#fff;
+  border-radius: 2%;
+  margin-top: 150px;  
+}
+.form-success h1{
+ font-size: 50px;
+ font-weight: bold; 
+}
+.form-success p{
+  font-size: 20px!important;
+ font-weight: 500px;
+ color:#fff;
+}
+.Goback-link {
+   width: 100px;
+  height: 50px;
+  margin: auto;  
+}
+.Goback-link h5{
+  text-decoration: none!important;
+  padding: -1px!important;
+  width:120px;position: relative;
+  color:#f5f5f5!important;
+  background-color: #338a6d;
+    padding: 10px; 
+}
+.Goback-link h5:hover{
+  text-decoration: none!important;
+  padding: -1px!important;
+  width:120px;position: relative;
+  color:#222!important;
+  background-color: #82dabc;
+    padding: 10px;
+}
+
+.Goback-link a{
+  text-decoration: none!important;
+  padding: 1px!important;
+}
+/**===========================================CONTACT MAP=============================================*/
+@media only screen and (max-width:1024px){
+  .ContactPage .col-lg-6 p {
+    padding-bottom:0rem;
+    text-align: justify;
+    position: relative;
+    margin-left: 20px;
+  
+  }
+  .ContactPage .col-lg-6 h1 {
+    position: relative;
+    top:-30px;
+    text-align: center;
+    margin: 20px;
+  }
+  #col6 p{
+    text-align: justify!important;
+    position: relative;
+    top:-50px;
+    margin-left: 40px;
+  
+  }
+
+}
+
+/**===========================================CONTACT MAP=============================================*/
+@media only screen and (max-width:768px){
+  .ContactPage .col-lg-6 {
+    position: relative;
+    top:-50px;
+    text-align: center;
+  }
+  .ContactPage .col-lg-6 h1 {
+    position: relative;
+    top:-30px;
+    text-align: center;
+  }
+  .ContactPage .col-lg-6 p {
+    text-align: center;
+  
+  }
+  #col1{
+    position: relative;
+    left:30px;
+  }
+  #col6 {
+  position: relative;
+    top: -100px !important;
+    left:-20px;
+  }
+  #col6 p{
+    text-align:center!important;
+    position: relative;
+    top:-50px;
+    margin-left: 40px;
+  }
+  .Hand_pointLeft{
+    font-size: 50px;
+    position: relative;
+    top:0px!important;
+   left:100px;
+  
+  } 
+  .ClickMeWrapper{
+    background-color: #f5f5f5!important;
+    width:450px;
+      height:100px;  
+      text-align: center;
+      position: relative;
+      left: 0px !important;  
+  }
+  .ClickMeWrapper h5{
+    position: relative;
+    top: 1rem;
+    left: -20px;
+  }
+  .ClickMeWrapper p{
+    position: relative;
+    top: 1rem;
+    left: -20px;
+    font-size: 1rem;
+    margin-bottom: 1rem!important;
+  }
+  .Hand_pointLeft{
+    font-size: 50px;
+    position: relative;
+    top: -80px !important;
+   left:200px;
+    animation: mymoves 5s infinite;
+  } 
+  @keyframes mymoves {
+    from {right: 300px;}
+    to {left: 100px !important;}
+    }
+  .HandOuterwrapper:hover{
+     background-color: #84e6c5!important;
+    width:450px;
+    height:100px;
+  }
+  .HandOuter_Link-wrapper p{
+    font-weight: bold;
+    color: rgb(33, 104, 175);
+   font-size: 18px;
+  }
+  .ClickMeWrapper .Contact_Us{
+    color:maroon!important;
+    font-size: 20px;
+   }
+   
+  .ClickMeWrapper .Contact_Us:hover{
+    color:rgb(16, 124, 22)!important;
+    font-size: 20px;
+    text-decoration: none;
+   }
+  
+  @keyframes mymoves {
+    from {right: 300px;}
+    to {left: 80px;}
+    }
+  .contact_add_row{
+   margin-top: 40px!important;
+   margin-bottom: 40px!important;
+  }
+  .contact_add_row h1{
+    font-size: 20px;
+    color: rgb(33, 104, 175);
+    font-weight: bold;
+  }
+  
+  .Contact_mapp iframe {
+    width: 100% !important;
+    height: 600px;
+  }
+  .Contact_mapp {
+    position: relative;
+    top: 0px !important;
+    margin-bottom: 60px;
+  }
+  .ContactPage .row{
+    margin-bottom: -120px;
+  }
+  
+}
+ /*===========================================MEDIA QUERIES======================================================================================*/
+ /*===========================================MEDIA QUERIES======================================================================================*/
+@media only screen and (max-width: 568px) {
+ /*===========================*/
+.ContactUs{
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("../folwImages/contactUs.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+.ContactUs h1{
+color:#fff;
+font-size: 2.1rem;
+font-weight: bold;
+position: relative;
+top:50%;
+text-align: center;
+}
+.ContactPage .row {
+margin-bottom: -80px!important;
+}
+
+ .ClickMeWrapper{
+  background-color: #f5f5f5!important;
+  width:400px;
+    height:100px;    
+}
+.Hand_pointLeft{
+  font-size: 50px;
+  position: relative;
+  top: -80px !important;
+ left:120px;
+  animation:none;
+} 
+.HandOuter_Link-wrapper p{
+  font-weight: bold;
+  color: rgb(33, 104, 175);
+  font-size: 1rem;
+ 
+}
+.ClickMeWrapper .Contact_Us{
+  color:maroon!important;
+  font-size: 20px;
+ }
+
+.ClickMeWrapper .Contact_Us:hover{
+  color:rgb(16, 124, 22)!important;
+  font-size: 20px;
+  text-decoration: none;
+ }
+.Contact_mapp iframe {
+  width: 100% !important;
+  height: 600px;
+}
+.Contact_mapp {
+  position: relative;
+  top: 0px !important;
+  margin-bottom: 0px;
+}
+
+  /*===========================================CONTACT MAP=============================================*/
+ 
+
+.form-success{
+  position: relative;
+  text-align: center;
+  background-color: rgb(84, 97, 110);
+  width: 320px;
+  height: 250px;
+  padding: 40px;
+  color:#fff;
+  border-radius: 2%;
+  margin-top: 150px;
+ 
+}
+.form-success h1{
+ font-size: 30px;
+ font-weight: bold;
+  
+}
+.form-success p{
+  font-size: 18px!important;
+ font-weight: 500px;
+ color:#fff;
+
+}
+.Goback-link {
+ 
+  width: 100px;
+  height: 50px;
+  margin: auto;  
+}
+
+.Goback-link h5{
+  text-decoration: none!important;
+  padding: -1px!important;
+  width:120px;position: relative;
+  color:#f5f5f5!important;
+  background-color: #338a6d;
+    padding: 10px;
+  
+}
+.Goback-link h5:hover{
+  text-decoration: none!important;
+  padding: -1px!important;
+  width:120px;position: relative;
+  color:#222!important;
+  background-color: #82dabc;
+    padding: 10px;
+  
+}
+
+.Goback-link a{
+  text-decoration: none!important;
+  padding: 1px!important;
+  
+}
+
+ /*===========================================CONTACT MAP=============================================*/
+
+
+/*-=================================================FORM CONTAINER-===============================*/
+
+.Containers form {
+  padding: 10px;
+}
+
+.containers {
+  background: #f5f5f5;
+  margin: 100px auto;
+  box-shadow: 1px 1px 1px 4px lightgrey;
+  height: 550px;
+  position: relative;
+  top: 40px;
+  width: 80% !important;
+  margin-left:10px;
+  margin-bottom: 100px!important;
+}
+#containerRequest{
+  background: #f5f5f5;
+  margin: 100px auto;
+  box-shadow: 1px 1px 1px 4px lightgrey;
+  height: 620px;
+  position: relative;
+  top: 40px;
+  width: 80% !important;
+
+  margin-bottom: 200px!important;
+
+}
+
+/*====================REQUESTfORM-------------*/
+.SendRequestPage {
+  position: relative;
+  top: 60px;
+  margin-bottom: 60px!important;
+}
+.SendRequestPage p {
+  position: relative;
+  top: 60px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  font-size: 20px;
+ 
+}
+
+.SendRequest_title {
+  top: 40px;
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+}
+
+.containers label {
+  display: block;
+  letter-spacing: 0.1rem;
+  font-style: italic;
+  margin-bottom: 3px;
+}
+
+.containers input,
+.containers textArea {
+  width: 90%;
+  margin-left: 4%;
+  padding: 10px;
+  border: none;
+  box-sizing: 1px 1px 4px rgb(dimgrey);
+}
+ /*===========================================CONTACT FORM END HERE=============================================*/
+
+}
+
+@media only screen and (max-device-width: 480px) {
+  /*===========================*/
+  *{
+   margin: 0;
+   padding: 0px;
+   box-sizing: border-box;
+ }
+ html, body {
+    font-size: 15px;
+   color: #222;
+    font-family: "Quicksand", sans-serif;
+   width: 100%!important;  
+ }
+ .ContactUs{
+   width: 100%;
+   height: 200px;
+   background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("../folwImages/contactUs.jfif");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:center;
+ }
+ .ContactUs h1{
+ color:#fff;
+ font-size: 2.1rem;
+ font-weight: bold;
+ position: relative;
+ top:50%;
+ text-align: center;
+ }
+ .ContactPage .row {
+ width: 80% !important;
+ padding:0px;
+ margin: auto!important;
+ position: relative;
+ left: 15px !important;
+ margin-bottom: -20rem;
+  
+ }
+ .ContactPage .col-lg-6 {
+   padding:0rem;
+ 
+ 
+ }
+ #col1{
+  position: relative;
+  left:10px;
+}
+#col6 {
+position: relative;
+  top: -40px !important;
+  left:0px;
+}
+
+#col6 h1{
+  position: relative;
+    font-size: 1.2rem;
+  }
+#col6 p{
+  text-align:center!important;
+  position: relative;
+  top:-50px;
+  margin-left: 0px;
+}
+ .ContactPage .col-lg-6  h1{
+   font-size: 1rem;
+   font-weight: bold;
+   color: rgb(33, 104, 175);
+   text-align: center;
+ }
+ .ContactPage .col-lg-6  p{
+   font-size: 1rem;  
+   color: rgb(33, 104, 175);
+   text-align: center;
+ }
+ .ClickMeWrapper{
+  background-color: #f5f5f5!important;
+  width:300px;
+    height:100px;  
+    text-align: center;
+    position: relative;
+    left: -40px !important;
+}
+.ClickMeWrapper h5,p{
+  position: relative;
+  top: 1rem;
+  left: -20px;
+    
+}
+.ClickMeWrapper p{
+  position: relative;
+  top: 1rem;
+  left: -20px;
+    
+}
+.HandOuterwrapper:hover{
+   background-color: #84e6c5!important;
+  width: 300px !important;
+  height:100px;
+}
+
+  .Hand_pointLeft{
+    font-size: 50px;
+    position: relative;
+    top: -80px !important;
+   left:100px;
+    animation: mymoves 5s infinite;
+  } 
+  @keyframes mymoves {
+    from {right: 300px;}
+    to {left: 100px !important;}
+    }
+}

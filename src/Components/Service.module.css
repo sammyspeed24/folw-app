@@ -1,0 +1,213 @@
+.ServiceContainer {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 0px;
+  background-color: #f5f5f5;
+  position: relative;
+  top: -3rem;
+}
+
+.ServiceTitle {
+  position: relative;
+  padding: 0px;
+  margin: auto;
+  width: 50% !important;
+  border-bottom: 1px solid#84e6c5;
+  top: 4rem;
+  margin-bottom: -2rem;
+}
+.ServiceTitle h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #20c997 !important;
+}
+.ServiceRow {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+  width: 80%;
+  margin: auto;
+  top: -5rem;
+}
+.Service_innerWrapper {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  top: -2rem;
+}
+.Serivce_para {
+  position: relative;
+  top: 200px;
+  padding: 1rem;
+}
+.Serivce_para p {
+  color: #000;
+  font-size: 1rem;
+  padding: 0px 20px;
+  text-align: justify;
+  font-weight: normal;
+}
+.Serivce_para h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Serivce_para{
+    width: 100%;
+  }
+  .ServiceRow {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    top: -5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ServiceRow {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    top: -5rem;
+  }
+  .ServiceTitle {
+  position: relative;
+  padding: 0px;
+  margin: auto;
+  width: 50% !important;
+  border-bottom: 1px solid#84e6c5;
+  top: 4rem;
+  margin-bottom: -3rem;
+}
+.ServiceTitle h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #20c997 !important;
+}
+.Serivce_para{
+  width: 100%;
+}
+.Serivce_para p {
+  color: #000;
+  font-size: 1rem;
+  padding: 0px;
+  text-align:center;
+  font-weight: normal;
+
+}
+.Serivce_para h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: underline !important;
+}
+}
+
+@media screen and (max-width: 568px) {
+  .ServiceContainer {
+    width: 100%;
+    height: 550px;
+    margin-bottom: 0px;
+    background-color: #f5f5f5;
+    position: relative;
+    top: -3rem;
+  }
+
+  .ServiceTitle {
+    position: relative;
+    padding: 1rem;
+    margin: auto;
+    width: 60% !important;
+    border-bottom: 1px solid#84e6c5;
+    top: 4rem;
+    margin-bottom: -1rem;
+  }
+
+  .ServiceTitle h1 {
+    font-size: 2rem !important;
+    font-weight: bold;
+    color: #20c997 !important;
+    text-align: center;
+  }
+  .ServiceRow {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    top: 0rem;
+  }
+  .Serivce_para {
+    position: relative;
+    top: 5rem !important;
+    text-align: center;
+    padding: 1rem;
+  }
+  .Serivce_para p {
+    color: #000;
+    font-size: 15px;
+    padding: 2px;
+  }
+  .Serivce_para h4 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: underline !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ServiceContainer {
+    width: 100%;
+    height: 550px;
+    margin-bottom: 0px;
+    background-color: #f5f5f5;
+    position: relative;
+    top: -3rem;
+  }
+
+  .ServiceTitle {
+    position: relative;
+    padding: 1rem;
+    margin: auto;
+    width: 60% !important;
+    border-bottom: 1px solid#84e6c5;
+    top: 4rem;
+    margin-bottom: -1rem;
+  }
+
+  .ServiceTitle h1 {
+    font-size: 1.2rem !important;
+    font-weight: bold;
+    color: #20c997 !important;
+    text-align: center;
+  }
+  .ServiceRow {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    top: 0rem;
+  }
+  .Serivce_para {
+    position: relative;
+    top: 5rem !important;
+    text-align: center;
+    padding: 1rem;
+  }
+  .Serivce_para p {
+    color: #000;
+    font-size: 15px;
+    padding: 2px;
+  }
+  .Serivce_para h4 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: underline !important;
+  }
+}

@@ -1,0 +1,332 @@
+  
+*{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html, body {
+  font-size: 15px;
+  color: #222;
+   font-family: "Quicksand", sans-serif;
+  width: 100%!important;
+  height: 100% !important;
+}
+.main_banner{
+  width:100%;
+  height:100vh;
+  margin-bottom: -30px;
+ }
+.overlay{
+  width:100%;
+  position:absolute;
+  height:100vh;
+   top:50%;
+  z-index:-1;
+  left:50%;
+  transform :translate(-50%, -50%);
+  background-color: #4c686e;
+  mix-blend-mode: overlay;
+}
+.Videostyle{
+  width:100%;
+  position:absolute;
+  height:100vh;
+  object-fit:cover;
+  top:50%;
+  z-index:-1;
+  left:50%;
+  transform :translate(-50%, -50%);
+  opacity: .8;
+}
+.InnerWrapper{
+  max-width: 900px!important;
+  width: 60%;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  top: 50% !important;
+  left:50%;
+  transform :translate(-50%, -50%);
+}
+.InnerWrapper .InnerPara{
+color: #fff;
+font-size:4rem;
+}
+.InnerWrapper .Scripture{
+      font-size: 1.5rem;
+    font-style: italic;
+    color: #fff;
+    font-weight: bolder;
+    background: #20c997!important;
+    padding: 2px;
+     border-radius: 50px;
+    width:150px;
+    margin: auto;
+  }
+ /*===========SECTIONTHREE------========================*/
+    .sectionThree{
+      width: 100%;
+      height: 400px;
+      background: linear-gradient(rgba(78, 78, 78, 0.3), rgba(0, 0, 0, 0.3)),
+        url("../folwImages/dance2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    top:0px!important;
+    position: relative;
+    }  
+    .sectionThree .para  {
+      font-weight: bold;
+      text-align: center;
+      width: 85%!important;
+      margin: auto;
+      position: relative;
+      top:120px;
+    
+   }
+    .sectionThree .para p {
+      font-size: 2rem;
+      color:white;
+  }
+ 
+   
+ .Scripture2 {
+   font-size: 17px!important;
+   font-style: italic;
+   color: #fff;
+   font-weight: bolder;
+   background: #20c997!important;
+   padding: 2px;
+    border-radius: 50px;
+   text-align: center;
+   width:175px;
+   margin: auto;
+ 
+ }
+
+    /*===========COVIDPAGE------========================*/
+    .GuestWrapper{
+      width:100%;
+      height:650px;
+      background-color: #e8ecec; 
+
+    }
+        .Covidwrapper{
+      display: flex;
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("../folwImages/congregation1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+      width:80%;
+        height:500px;
+      margin: auto;
+      position: relative;
+      top: 10%!important;
+      
+    
+    }
+    .covidPara p{
+      color:#fff;
+      padding: 0px;
+      font-size: 2rem;
+      text-align:center;
+    }
+    .covidPara{
+width:80%;
+margin: auto;
+    }
+
+  /*=======================================================768px============================*/
+
+  @media only screen and (max-width:768px) {
+    .InnerWrapper .InnerPara{
+      color: #fff;
+      font-size:3rem;
+      
+      }
+    .GuestWrapper{
+      width:100%;
+      height:500px;
+      background-color: #e8ecec;  
+    }
+    
+    .Covidwrapper{
+      
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("../folwImages/congregation1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+      width:80%;
+        height: 400px !important;
+      margin: auto;
+    }
+    .covidPara p{
+      color:#fff;
+      padding-left: 30px;
+      font-size: 1.7rem;
+      text-align:center;
+    }
+    .covidPara{
+width:80%;
+margin: auto;
+    }
+  
+    .sectionThree .para p {
+      font-size: 1.6rem;
+      color:white;
+  }
+  .sectionThree .para  {
+    font-weight: bold;
+    text-align: center;
+    width: 90%!important;
+    margin: auto;
+    position: relative;
+    top:6rem;
+  
+  
+  }
+   
+  .Scripture2 {
+   font-size: 1rem!important;
+   font-style: italic;
+   color: #fff;
+   font-weight: bolder;
+   background: #20c997!important;
+   padding: 3px;
+    border-radius: 50px;
+   text-align: center;
+   width:175px;
+   margin: auto;
+  }
+  
+  
+  }
+  
+  
+  
+  
+ /*====================================meduia query===================*/   
+@media only screen and (max-width:568px){
+   
+  .InnerWrapper{
+    max-width: 900px!important;
+    width: 90%;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    top: 50% !important;
+    left:53%;
+    transform :translate(-50%, -50%);
+  }
+  
+  .InnerWrapper .InnerPara{
+  color: #fff;
+  font-size:3rem;
+  }
+  .InnerWrapper .Scripture{
+        font-size: 1rem;
+      font-style: italic;
+      color: #fff;
+      font-weight: bolder;
+      background: #20c997!important;
+      padding: 2px;
+       border-radius: 50px;
+
+      width:150px;
+      margin: auto;
+    }
+
+ 
+
+/*========end of covid==============*/
+.sectionThree{
+  width: 100%;
+  height: 250px;
+  position: relative;
+top: 40% !important;
+
+}  
+.sectionThree .para p {
+  font-size: 1.2rem;
+  color:white;
+}
+
+.sectionThree .para  {
+font-weight: bold;
+text-align: center;
+width: 85%!important;
+margin: auto;
+position: relative;
+top: 15px !important;
+left: 30px !important;
+
+}
+
+.Scripture2 {
+font-size: 15px!important;
+font-style: italic;
+color: #fff;
+font-weight: bolder;
+background: #20c997!important;
+padding: 2px;
+border-radius: 50px;
+text-align: center;
+width:175px;
+margin: auto;
+}
+
+    /*===========COVIDPAGE------========================*/
+    .GuestWrapper{
+      width:100%;
+      height:500px;
+      background-color: #e8ecec;  
+    }
+    .Covidwrapper{
+      width:90%;
+    }
+    .covidPara{
+      width:90%;
+      margin: auto;
+          }
+    .covidPara p{
+      color:#fff;
+      font-size:1.2rem!important;
+      text-align: center;
+      line-height: 30px;
+    }
+}
+ /*====================================meduia query===================*/   
+ @media only screen and (max-width:480px){
+  .InnerWrapper .InnerPara{
+    color: #fff;
+    font-size:2rem;
+    }
+  .sectionThree .para p {
+    font-size: 1.1rem!important;
+    color:white;
+    text-align: center;
+  }
+  
+  .sectionThree .para  {
+   top: 20px !important;
+  left: 22px!important;
+  
+  }
+  .Scripture2 {
+    font-size: 1rem!important;
+    top: -12px;
+    position: relative;
+    } 
+    .Covidwrapper{
+      width:90%;
+    }
+    .covidPara p{
+      color:#fff;
+      font-size:1rem!important;
+      text-align:center;
+    }
+    
+}

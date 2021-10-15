@@ -1,0 +1,1525 @@
+  
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  html, body {
+    font-size: 15px;
+    color: #222;
+     font-family: "Quicksand", sans-serif;
+    width: 100%!important;
+    height: 100% !important;
+  }
+  
+  .main_banner {
+    width: 100%;
+    height: 100vh!important;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    margin-bottom:0px;
+    top: -160px !important;
+    position: relative;
+  }
+  
+  .video_play {
+    min-height: 100%;
+    min-width: 100%;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+    width: auto;
+    height: auto;
+    position: absolute;
+  }
+  
+  .video-wrapper {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-position: cover;
+    top: 0%;
+    z-index: -1;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .inner_banner {
+    top: 35%;
+    position: relative;
+  }
+  
+  .inner_bannerPara {
+     font-weight: 100px;
+    color:#fff;
+    font-size: 50px!important;
+    text-align: center;    
+  }
+  
+    .Scripture {
+      font-size: 17px;
+      font-style: italic;
+      color: #fff;
+      font-weight: bolder;
+      background: #20c997!important;
+      padding: 2px;
+       border-radius: 50px;
+      text-align: center;
+      width:120px;
+      margin: auto;
+    }
+    /*==================sliderRow======================================*/
+    .WelcomeSpeech {
+      position: relative;
+      width: 100%;
+      height: 800px;
+      background: #f5f5f5;
+      top: -200px;
+      margin-bottom: -60px!important;
+    }
+   
+   
+    .wel_title {
+      position: relative;
+      padding: 5px;
+      margin:auto;
+      width:25%;
+      top: 40px;
+      border-bottom: 2px solid #20c997!important;
+      font-weight: bold;
+    }
+    .wel_title h1 {
+      font-size: 30px;
+      font-weight: bold;
+      color:#1fa67a;
+      margin: 2px;
+    }
+    .WelcomeSpeech .row{
+      position: relative;
+      top:300px;
+      background-color: transparent!important;
+    }
+    .colItem{
+      width:50%;
+      margin: auto;
+    }
+    .colItem img{
+      width:100%;
+      height:350px;
+      position: relative;
+      left:0px;
+      margin: auto;
+    }
+    .WelcomeSpeech .row p {
+      font-size: 18px;
+      text-align: justify;
+      line-height: 30px!important;
+      margin-left: 30px; 
+     }
+    .tilte_name h3 {
+    position: relative;
+    top:0px;
+    margin-left: 30px;
+  
+    }
+    .tilte_name p{
+      font-size: 15px;
+      text-align: center;
+      color: rgb(49, 102, 155);
+      font-weight: bold;
+    }
+  
+  
+    .section_3 {
+      width: 100%;
+      height: 400px;
+      background: linear-gradient(rgba(78, 78, 78, 0.3), rgba(0, 0, 0, 0.3)),
+        url("../folwImages/dance2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    top: -150px!important;
+    position: relative;
+    }
+    
+    .para {
+      position: relative;
+      top: 30%;
+      font-weight: bold;
+      width: 85%!important;
+      margin: auto;
+    }
+    .para p {
+       font-weight: bold;
+       text-align: center;
+       font-size: 30px;
+    }
+      
+    .Scripture2 {
+      font-size: 17px!important;
+      font-style: italic;
+      color: #fff;
+      font-weight: bolder;
+      background: #20c997!important;
+      padding: 2px;
+       border-radius: 50px;
+      text-align: center;
+      width:175px;
+      margin: auto;
+    }
+  
+  
+      /*===============================COVID====================================*/
+      .GuestWrapper {
+        width: 100%;
+       height: 500px;
+       position: relative;
+       top: -150px!important;
+       margin-bottom:-140px; 
+       
+     }
+  
+     .covidPara{
+      width:50%;
+      margin: auto;
+      position: relative;
+      background:rgba(255, 255, 255, .2);
+      box-shadow:0 5px 15px rgba(0, 0, 0, .5);
+      height:350px;
+     }
+     .congregation_one img{
+      width:80%;
+      height:100%;
+      
+    } 
+     .covidPara p{
+       padding: 20px;
+       font-size:20px;
+       font-weight: 500;
+       text-align: justify;
+       width:80%;
+       margin: auto;
+       position: relative;
+       left:10px;
+       line-height: 30px;
+       
+     }
+     .tilte_name {
+       color: rgb(49, 102, 155);
+       text-align: center;
+       padding: 4px;
+     }
+      /*===============================Who we are====================================*/
+     .WhoWeAre {
+      width: 100%;
+      height: 800px;
+      position: relative;
+      top: 40px;
+      margin-bottom: 230px!important;
+    }
+    .WhoWeAre .title h1{
+      text-align: center;
+      height: 300px;
+      color:#84e6c5;
+      top:60px;
+      position: relative;
+      font-size: 70px;
+      letter-spacing: 20px;
+      font-weight: bolder;
+    }
+  
+  .WhoWeAre .title {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../folwImages/cross.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 400px !important;
+    border-bottom: 1px solid #fff;
+  }
+  .WhoWeAre .carousel_wrapper {
+      position: relative;
+      top: -300px !important;
+      margin-bottom: -300px!important;
+    }
+    
+    .WhoWeAre  .carouselWrapper_title{
+      color: white;
+      font-size: 25px;
+      position: relative;
+      top: 60px;
+      text-align: center; 
+      font-weight: bold;
+    }
+    .WhoWeAre .carousel_para{
+      font-size: 20px!important;
+      position: relative;
+      top: 60px !important;
+    }
+    .carousel_wrapper .carousel-caption{
+      height: 300px !important;
+      position: relative;
+      width: 100%;
+      left: -20px !important;
+      top: -70px !important;
+  
+    }
+    .Contents .rowjom{
+      position: relative;
+      top:40%;
+      left:50%;
+      background: transparent;
+      border-bottom-right-radius:50px;
+      border-top-left-radius:50px;
+      height:300px;
+      width:100%;
+      transform: translate(-50%, -50%);
+    }
+    .Contents  .rowjom::before{
+      content: " ";
+      top:40%;
+      left:50%;
+      background: rgba(62, 134, 182, 0.5);
+      border-bottom-right-radius:100px;
+      border-top-left-radius:100px;
+      position:absolute;
+      height:300px;
+      width:80%;
+      transform: translate(-50%, -50%);
+    }
+      
+    .Content_title{
+    font-size: 50px;
+    font-weight: bolder;
+    color:#fff;
+    position: relative;
+    left:50px;
+    text-align:center;
+  
+    }
+    .Content_para{
+      position: relative;
+      font-size: 20px;
+    }
+    .Contents {
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+        url("../folwImages/picnic.jpg");
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-position: top center;
+      background-attachment: fixed;
+      height: 100% !important;
+      text-align: center;
+      color:rgb(255, 255, 255);
+      
+    }
+    /*===================================DEPARTMENT=============================*/
+    
+    .Deptcards{
+      width:100%;
+      height:600px;
+      background-color:#f5f5f5;
+      position: relative;
+      top:50px;
+  
+    }
+    .Deptcards_wrapper{
+      position: relative;
+    top: 120px !important;
+     height:400px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .Deptcards .card{
+      position: relative;
+      height: 200px!important;
+      width: 14rem;
+      margin: 3px;
+   
+      }
+    .Deptcards_title h1 {
+      font-size: 45px;
+      font-weight: bold;
+      color: #1fa67a;
+      margin: 2px;
+      text-align: center;
+    }
+    .Deptcards_title{
+      position: relative;
+      padding: 10px;
+      margin:auto;
+      width: 35% !important;
+      top: 50px;
+      border-bottom: 1px solid#1fa67a;
+      font-weight: bold;  
+    }
+    .Deptcards_para{
+      position: relative;
+      top:80px!important;
+       width: 60%!important;
+       margin: auto;
+       padding-bottom: 15px;
+          
+  }
+  .Deptcards_para p{
+   font-size: 17px;
+   font-weight: bold;
+   position: relative;
+  padding: 20px;
+  text-align: center;
+  
+  }
+  .Deptcards .card-body{
+  position: relative;
+  top: 0px !important;
+  }
+  
+  
+  .Deptcards .card-img-top {
+  width: 14rem!important;
+  height: 120px!important;
+  position: relative;
+  top:0px !important;
+  
+  }
+  .Deptcards .card-title{
+  position: relative!important;
+  top: -10px !important;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  }
+  .Deptcards_scripture{
+  background-color:rgb(31, 100, 77);
+  color:white;
+  padding:3px 3px;
+  margin-left: 3px;
+  border-radius: 5%;
+  }
+  
+  /*--------------------TESTIMONY_SECTION ends here---------------------------*/
+  .Testimony_wrapper{
+    width: 100% !important;
+    height:850px;
+    margin-bottom: 80px!important;
+    position: relative;
+    top:50px;
+    background-color: #fff;
+  }
+  
+   .Testimony_title{
+    position: relative;
+    padding: 10px;
+    margin:auto;
+    width: 35% !important;
+    top: 40px;
+    border-bottom: 1px solid#1fa67a;
+    font-weight: bold;
+    font-size: 18px!important; 
+    border-radius: 3%;
+   }
+    .Testimony_title  h1{
+        font-size: 45px;
+        font-weight: bold;
+        margin: 2px;
+        text-align: center;
+        color:#1fa67a;
+       
+  }
+  .Testimony_para {
+   position: relative;
+   top:40px!important;
+   width: 70%!important;
+  margin: auto;
+  margin-bottom: 50px;
+  }
+  .Testimony_para p {
+    font-size: 15px !important;
+    font-weight: bold;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+   }
+   
+  /*--------------------TESTIMONY SLIDER here---------------------------*/
+  
+  .carousel-caption {
+    position: static;
+    padding-bottom: 35px;
+    padding-top: 25px;
+    width: 80% !important;
+    margin: auto;
+  }
+  .carousel-caption_p {
+    font-size: 18px !important;
+    text-align: justify;
+    color:#222;
+    margin-top: 20px;
+    left: 0px!important;
+    position: relative;
+    top:-80px;
+    
+    
+  }
+  .testimony_carousel .imgs {
+    width: 20%;
+    height: 180px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: -10%!important;
+    margin-top: 30px;
+    border-radius: 50%;
+    margin-bottom: -30px;
+  }
+  .testimony_carousel {
+    height: 600px;
+    margin-top: 30px;
+    width: 100%;    
+  }
+  .carousel-item {
+    position: relative;
+    top:80px;
+  }
+  .carousel-item h3 {
+    color: rgb(33, 104, 175);
+    font-weight: bold;
+    position: relative;
+    top:-80px;
+  }
+  .testimony_carousel .carousel-indicators li{
+    position: relative;
+    top: -30px !important;
+    }
+  .testimony_carousel .carousel{
+    background-color: #f5f5f5;
+    height: 550px;
+    width:60%;
+    margin: auto;
+  }
+  .testimony_carousel .carousel-controls{
+    position: relative;
+    left: -20px!important;
+  }
+  
+  
+  /*=======================================SERVICE ServiceContainer====================*/
+  .ServiceContainer{
+    width:100%;
+    height:450px;
+    margin-bottom: 80px;
+    background-color: rgb(51, 50, 50);
+    }
+  
+  .Service_title{
+    position: relative;
+    padding: 10px;
+    margin:auto;
+    width: 35% !important;
+    top: 20px;
+    border-bottom: 1px solid#84e6c5;
+    font-weight: bold;  
+  }
+  
+  .Service_title h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #84e6c5;
+    margin: 2px;
+    text-align: center;
+  }
+  
+  .Service_innerWrapper{
+    width:100%;
+    margin: auto;
+  }
+  .Serivce_para {
+    position: relative;
+    top:200px;
+    text-align: center;
+  }
+  .Serivce_para p{
+    color: #84e6c5;
+    font-size: 15px;
+    padding:2px;
+  }
+  .ServiceTitle{
+    text-decoration: underline;
+    font-weight: bold;
+    color:rgb(172, 169, 169);
+    padding: 3px;
+    font-size: 15px;
+  }
+  /*=======================================SERVICE ServiceContainer====================*/
+  /*========================LOCATION============================*/
+  .location_row{
+     height:600px;
+    width:100%;
+    position: relative;
+    top:-100px;
+    margin-bottom: -50px;
+  }
+  
+  
+  .Churchlocate h3{
+    text-align: center;
+    color: #1fa67a;
+    font-size: 50px;
+    padding-bottom: 20px;
+    animation: mymove 5s infinite;
+    position: relative;
+    top:120px;
+     }
+  @keyframes mymove {
+    from {left: -10px;}
+    to {left: 50px;}
+  }
+  
+    .mapp iframe{
+      width:100%;
+      height:500px;
+      position: relative;
+      top: 30px !important;
+      margin-left: 30px;
+     
+    }
+  
+  
+  /*=======================CONNECT WITH US===================================*/
+  .ConnectUs {
+    width: 100%;
+    height: 800px;
+  
+   
+  }
+  .Connect_title {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../folwImages/conect.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height:300px;
+    top: 70px !important;
+    
+   
+    }
+    .Connect_title h1{
+      text-align: center!important;
+      font-size: 50px;
+      color:#fff;
+      position: relative;
+      top:100px;
+      text-transform: uppercase;
+      padding: 40px;
+      font-weight: bolder;
+    }
+    .Our-gallary h1{
+      text-align: center;
+      font-size: 50px;
+   
+      color: #fff;
+      padding: 40px;
+    }
+  
+  .ConnectUs .row {
+    position: relative;
+    top:250px;
+    margin-left: 5px;
+    width: 80% !important;
+  
+  }
+  .castImg{
+    width:100%;
+    height:60%;
+    position: relative;
+    top:100px;
+  }
+  .castbox_btn{
+    margin-top: 100px;
+    width:80%;
+    margin-left: 40px;
+  
+  }
+  .castbox_btn .btn{
+    font-size: 18px;
+  }
+  .HouseWrapper img{
+    width: 60% !important;
+    height:50%;
+    position: relative;
+    top:40px;
+    margin-bottom: 60px;
+  }
+  .HouseWrapper p{
+    width:80%;
+    margin: auto;
+    text-align: justify;
+  }
+  
+  
+  .ConnectUs .row .CastWrapper{
+    text-align: center;
+   margin-top:-100px ;
+  }
+  .PrayerWrapper{
+  text-align: center;
+  
+  }
+  .Link_Prayer{
+    text-decoration: none;
+    background-color: rgb(33, 104, 175);
+  
+  }
+  .Link_Prayer:hover{
+    text-decoration: none;
+    color:white;
+    transition: transform 0.5s ease-out;
+  }
+  
+  /*====================PRAYER RE-------------*/
+  .Submit_prayer{
+    text-decoration: none;
+      color:#f5f5f5!important;
+      height: 50px;
+    margin: auto; 
+  }
+  .Submit_prayer h5{
+    padding: 7px;
+    margin-top: 10px;
+    color:#f5f5f5!important;
+    background-color: #338a6d;
+    width:300px;position: relative;
+    left:50px;
+  }
+  .Submit_prayer h5:hover{
+    padding: 7px;
+    margin-top: 10px;
+    color:#222!important;
+    background-color: #82dabc;
+    width:300px;position: relative;
+    left:50px;
+  }
+  
+  
+  .Submit_prayer a{
+  
+    text-decoration: none;
+  
+  }
+  
+  .PrayerWrapper p{
+    text-align: justify;
+    width:300px;
+    margin: auto;
+  
+  }
+  .HouseWrapper{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .ConnectUs .prayingHandIMg{
+    width:40%;
+    height:60%;
+    padding: 10px;
+    margin-top: 40px;
+  }
+  
+  /*====================================GIVING and GAllary===============================*/
+  /*====================================GIVING and GAllary===============================*/
+  .GalleryPage{
+    width:100%;
+    min-height: 100vh;
+  }
+  .owl-theme .item img{
+    width: 400px !important;
+      height: 400px!important;
+  }
+  .carousel-wrapper{
+    width:100%;
+    height: 500px !important;
+    background-color: #f5f5f5;
+    margin-top: 80px;
+    margin-bottom: 30px;
+   
+  }
+  .owl-theme .item{
+    top: 100px !important;
+    position: relative;
+    width:100%;
+    
+  
+  }
+  .Our-gallary{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    top:50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../folwImages/birthdays.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+  }
+  .Our-gallary h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    padding: 40px;
+  }
+  /*======================================FLIP OUR SERVICES==========================*/
+  /*======================================FLIP OUR SERVICES==========================*/
+  .Clipwrapper{
+    width:100%;
+    height: 900px!important;
+  }
+  
+  .Clipwrapper .Clip_title {
+    position: relative;
+    top:80px;
+    background:linear-gradient(rgb(0,0,0,.3),rgb(0,0,0,.3)),  url("../folwImages/conegation1.jpg");
+    background-position: center;
+    background-size: cover;
+     width: 100% !important;
+    height: 200px;
+  }
+  
+  .Clipwrapper .Clip_title h1 {
+    font-size:50px;
+    color:#fff;
+    padding-top: 60px!important;
+    border-bottom: none;
+    text-align: center;
+    text-transform: uppercase; 
+    font-weight: bold;
+  }
+  .ClipWrapper_row{
+    position: relative;
+    top: 430px !important;
+    margin-bottom: 200px;
+    background-color: #f3f3fe;
+  }
+  .CardContainer{
+   width:300px;
+   height: 150px;
+   position: relative;
+   top:-100px;
+  }
+  .Card{
+   width:100%;
+   height:100%;
+   transition: transform 1s ease-in-out;
+   transform-style: preserve-3d;
+   padding: 20px;
+  }
+  .CardContainer:hover .Card{
+   transform: rotateY(180deg);
+   cursor: pointer;
+  }
+  
+  .Card .backCard{
+   background: #222;
+   width:100%;
+   height:135%;
+   transform: rotateY(180deg);
+     
+  }
+  .card-tit{
+  color:white;
+  top: -40px;
+  font-weight: bold;
+  position: relative;
+  }
+  .backCard p{
+  color: #fff;
+  margin-top: 40px;
+  font-size: 14px;
+  padding: 6px;
+  }
+  .Card figure{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  }
+  .col_wrapper{
+  margin: 70px;
+  position: relative;
+  top:60px;
+  }
+  /*=======================SCROLL TO TOP===================*/
+  .scrollto-top{
+    width:45px;
+    height:45px;
+    z-index: 1;
+    position:fixed;
+    bottom: 20px;
+    left:90%;
+    background-color:rgb(74, 214, 137);
+    border-radius: 100%;
+  }
+  
+  .scrollbar{
+    color:floralwhite;
+     position: relative;
+    animation:scrollTop 0.5s alternate ease infinite;
+    left:12px!important;
+    margin-top:10px!important;
+    font-size: 25px;
+    font-weight: bolder;
+    
+  }
+  
+  @keyframes scrollTop {
+    from{
+      transform: translateY(2px);
+    }
+  
+    to{
+      transform: translateY(-1px);
+    }
+  }
+  
+    /*============media queeryy 568---------------------===================================================================*/
+    /*============media queeryy 568---------------------===================================================================*/
+    /*============media queeryy 568---------------------===================================================================*/
+    @media screen and (max-width:568px) {
+      .inner_banner {
+        top: 25%!important;
+        position: relative;
+  
+      }
+      
+      .inner_bannerPara {
+         font-weight: 100px;
+        color:#fff;
+        font-size: 50px!important;
+        text-align: center;    
+      }
+  
+      .main_banner {
+        width: 100%;
+        height: 100vh!important;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        margin-bottom:0px;
+        top: -160px !important;
+        position: relative;
+      }
+    
+      .video_play {
+        min-height: 100%;
+        min-width: 100%;
+        bottom: 0px;
+        right: 0px;
+        z-index: -1;
+        width: auto;
+        height: auto;
+        position: absolute;
+      }
+      
+      .video-wrapper {
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        background-position: cover;
+        top: 0%;
+        z-index: -1;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .inner_banner {
+        top: 35%;
+        position: relative;
+        width: 100%;
+      }
+      
+      .inner_bannerPara {
+         font-weight: 100px;
+        color:#fff;
+        font-size: 50px!important;
+        text-align: center;    
+      }
+  
+      /*==================welcome speech==8*/
+      .WelcomeSpeech{
+        width:100%;
+        height:850px;
+        margin-bottom: -200px!important;
+      
+      }
+      
+    .WelcomeSpeech .row{
+      position: relative;
+      top: 380px !important;
+      background-color: transparent!important;
+      
+    }
+    .colItem{
+      width:80%;
+      margin: auto;
+  
+    }
+    .colItem img{
+      width: 100% !important;
+      height:200px!important;
+      position: relative;
+    
+    }
+    .WelcomeSpeech .row p {
+      font-size: 18px;
+      text-align: justify;
+      line-height:normal!important;
+      position: relative;
+      top:30px;
+      width: 80% !important;
+      margin: auto;
+     
+     }
+    .tilte_name h3 {
+    position: relative;
+    top:30px;
+    font-weight: bold;
+    
+  
+    }
+    .tilte_name p{
+      font-size: 15px;
+      text-align: center;
+      color: rgb(49, 102, 155);
+       margin-left:60px!important;
+       font-weight: normal!important;
+    }
+    /*==============section=========================*/
+    .section_3 {
+      width: 100%;
+      height: 300px;
+      background: linear-gradient(rgba(78, 78, 78, 0.3), rgba(0, 0, 0, 0.3)),
+        url("../folwImages/dance2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    margin-bottom:80px!important;
+    position: relative;
+    top: 0px !important;
+    }
+    
+    .para {
+      position: relative;
+      top: 20%;
+      font-weight: bold;
+      width: 85%!important;
+      margin: auto;
+    }
+    .para p {
+       font-weight: bold;
+       text-align: center;
+       font-size: 20px;
+    }
+    
+      /*===============================COVID====================================*/
+      .GuestWrapper {
+        width: 100%;
+       height: 560px;
+       position: relative;
+       top: 80px!important;
+       margin-bottom:80px; 
+       
+     }
+  
+     .covidPara{
+      width:80%;
+      margin: auto;
+      position: relative;
+      background:rgba(255, 255, 255, .2);
+      box-shadow:0 5px 15px rgba(0, 0, 0, .5);
+      height:400px;
+      position: relative;
+      top:-40px;
+     }
+     .congregation_one{
+      margin: auto!important;
+      width: 80% !important;
+      position: relative;
+      top:-80px;
+     }
+     .congregation_one img{
+      width:100%;
+      height:100%;    
+    } 
+     .covidPara p{
+       padding: 20px;
+       font-size:20px;
+       font-weight: 500;
+       text-align: justify;
+       width:80%;
+       margin: auto;
+       position: relative;
+       left:10px;
+       line-height: 30px;
+     }
+     .tilte_name {
+       color: rgb(49, 102, 155);
+       text-align: center;
+       padding: 4px;
+     }
+      /*===============================Who we are====================================*/
+     .WhoWeAre {
+      width: 100%;
+      height: 500px;
+      position: relative;
+      top: 40px;
+      margin-bottom: 230px!important;
+    }
+    .WhoWeAre .title h1{
+      text-align: center;
+      height: 300px;
+      color:#84e6c5;
+      top:60px;
+      position: relative;
+      font-size: 40px;
+      letter-spacing: 20px;
+      font-weight: bolder;
+    }
+    
+  .WhoWeAre .title {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../folwImages/cross.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 300px!important;
+    border-bottom: 1px solid #fff;
+  }
+  .WhoWeAre .carousel_wrapper {
+      position: relative;
+      top: -250px !important;
+      margin-bottom: -300px!important;
+    }
+    
+    .WhoWeAre  .carouselWrapper_title{
+      color: white;
+      font-size: 25px;
+      position: relative;
+      top: 60px;
+      text-align: center; 
+      font-weight: bold;
+    }
+  
+    .Contents .rowjom{
+      position: relative;
+      top:50%;
+      left:50%;
+      background: transparent;
+      border-top-left-radius: 0px!important;
+      position: relative;
+      height: 400px !important;
+      width:80%;
+      transform: translate(-50%, -50%);
+    }
+    .Contents  .rowjom::before{
+      position: relative;
+      content: " ";
+      top:50%;
+      left:50%;
+      background: transparent;
+     
+      position:absolute;
+      height: 400px !important;
+      width:80%;
+      transform: translate(-50%, -50%);
+    }
+      
+    .Content_title{
+    font-size: 25px;
+    font-weight: bolder;
+    color:#fff;
+    position: relative;
+    left:0px;
+    text-align:center;
+    top:40px;
+  
+    }
+    .Content_para{
+      position: relative;
+      font-size: 18px;
+      top: 40px !important;
+    }
+    .Contents {
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+        url("../folwImages/picnic.jpg");
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-position: top center;
+      background-attachment: fixed;
+      height: 100% !important;
+      text-align: center;
+      color:rgb(255, 255, 255);
+      
+    }
+    /*========================DEPT SECTION==============*/
+    .Deptcards{
+      width:100%;
+      height:800px;
+      background-color:#f5f5f5;
+      position: relative;
+      top:50px;
+  
+    }
+    .Deptcards_wrapper{
+      width:100%;
+    
+      position: relative;
+    top: -300px !important;
+     height:400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center!important;
+    }
+    .Deptcards .card{
+      position: relative;
+      height: 140px!important;
+      width: 12rem;
+      margin: 3px;
+  
+    }
+    .Deptcards .card-img-top {
+      width: 12rem!important;
+      height: 120px!important;
+      position: relative;
+      top:0px !important;
+      overflow: hidden!important;
+    }
+      .Deptcards_para{
+        position: relative;
+        top:30px!important;
+         width: 100%!important;
+         margin: auto;
+         padding-bottom: 15px;
+            
+    }
+    #Scripture{
+      font-size: 17px!important;
+      font-style: italic;
+      color: #fff;
+      font-weight: bolder;
+      background: #20c997!important;
+      padding: 2px;
+       border-radius: 50px;
+      text-align: center;
+      width:175px;
+      margin: auto;
+      position: relative;
+      top:-20px;
+    }
+    .Deptcards_title {
+      position: relative!important;
+      top: 30px !important;
+      width: 55% !important;
+    
+    }
+    .Deptcards_title h1 {
+      font-size: 30px;
+      font-weight: bold;
+      color: #1fa67a;
+      margin: 0px;
+      text-align: center;
+    }
+     /*--------------------TESTIMONY_SECTION ends here---------------------------*/
+     .Testimony_wrapper{
+      width: 100% !important;
+      height:850px;
+      margin-bottom: 80px!important;
+      position: relative;
+      top:100px;
+      background-color: #fff;
+    }
+    
+     
+    .Testimony_title{
+      position: relative;
+      padding: 10px;
+      margin:auto;
+      width: 35% !important;
+      top: -20px;
+      border-bottom: 1px solid#1fa67a;
+      font-weight: bold;
+      font-size: 20px!important; 
+      border-radius: 3%;
+     }
+      .Testimony_title  h1{
+          font-size: 30px;
+          font-weight: bold;
+          margin: 2px;
+          text-align: center;
+          color:#1fa67a;
+         
+    }
+    .Testimony_para {
+     position: relative;
+     top:-20px!important;
+     width: 70%!important;
+    margin: auto;
+    }
+    .Testimony_para p {
+      font-size: 15px !important;
+      font-weight: bold;
+      position: relative;
+      padding: 20px;
+      text-align: center;
+     }
+     
+    /*--------------------TESTIMONY SLIDER here---------------------------*/
+  
+    .carousel-caption {
+      position: static;
+      padding-bottom: 35px;
+      padding-top: 25px;
+      width: 80% !important;
+      margin: auto;
+    }
+    .carousel-caption_p {
+      font-size: 15px !important;
+      text-align: justify;
+      color:#222;
+      margin-top: 20px;
+      left: 0px!important;
+      position: relative;
+      text-align: center;
+      top:-90px;
+      
+      
+    }
+    .testimony_carousel .imgs {
+      width: 40%;
+      height: 150px;
+      position: relative;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      top: -10%!important;
+      margin-top: 30px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    .testimony_carousel {
+      height: 600px;
+      margin-top: 30px;
+      width: 100%;    
+    }
+    .carousel-item {
+      position: relative;
+      top:80px;
+    }
+    .carousel-item h3 {
+      color: rgb(33, 104, 175);
+      font-weight: bold;
+      position: relative;
+      top:-80px;
+      font-size: 18px;
+    }
+    .testimony_carousel .carousel-indicators li{
+      position: relative;
+      top: -30px !important;
+      }
+    .testimony_carousel .carousel{
+      background-color: #f5f5f5;
+      height: 550px;
+      width:60%;
+      margin: auto;
+    }
+    .testimony_carousel .carousel-controls{
+      position: relative;
+      left: -20px!important;
+    }
+  
+       
+     /*=======================================SERVICE ServiceContainer====================*/
+     .ServiceContainer{
+      width:100%;
+      height:450px;
+      margin-bottom: 80px;
+      background-color: rgb(51, 50, 50);
+      }
+    
+    .Service_title{
+      width: 40% !important;
+      top: 40px;
+      border-bottom: 1px solid#84e6c5; 
+      margin-bottom: 20px;
+    }
+    
+    .Service_title h1 {
+      font-size: 30px;
+      font-weight: bold;
+      color: #84e6c5;
+      margin: 2px;
+      text-align: center;
+    }
+    
+    /*=======================================SERVICE ServiceContainer====================*/
+    /*========================LOCATION============================*/
+    .location_row{
+       height:600px;
+      width:100%;
+      position: relative;
+      top:-160px;
+      margin-bottom: -50px;
+    }
+    .Churchlocate{
+      position: relative;
+      top:-20px;
+    }
+    
+    
+    .Churchlocate h3{
+      text-align: center;
+      color: #1fa67a;
+      font-size: 30px;
+      padding-bottom: 20px;
+      animation: mymove 5s infinite;
+      position: relative;
+      top:120px;
+       }
+    @keyframes mymove {
+      from {top: 80px;}
+      to {down: 20px;}
+    }
+    
+    .mapp {
+      width:100%;
+      height:500px;
+      position: relative;
+      top: 40px !important;
+      left:0px;
+     
+    }
+   .mapp iframe{
+        width:100%;
+        height:500px;
+        position: relative;
+        top: 30px !important;
+        margin-left: 30px;
+        }
+    /*=======================SCROLL TO TOP===================*/
+     .scrollto-top{
+       width:45px;
+       height:45px;
+       z-index: 1;
+       position:fixed;
+       bottom: 20px;
+       left:90%;
+       background-color:rgb(74, 214, 137);
+       border-radius: 100%;
+     }
+    }
+    /*============end media queeryy   MEDIA=========================================568---------------------===============*/
+  
+  
+  
+  
+  
+   /*======================================1024================================*/
+   @media screen and (max-width:1024px) {
+     
+    
+    .wel_title {
+      position: relative;
+      padding: 5px;
+      margin:auto;
+      width:60% ;
+      top: 40px;
+      border-bottom: 2px solid #20c997!important;
+      font-weight: bold;
+      
+    }
+    .wel_title h3 {
+      font-size: 30px;
+      font-weight: bold;
+      color:#1fa67a;
+      margin: 2px;
+    }
+    }
+  /*=======================================FooterServiceContainer====================*/
+  /* .footer_container{
+    width:100%;
+    height: 600px;
+     background-color: rgb(51, 50, 50);
+    color:rgb(172, 169, 169);
+    text-align: center;
+   
+  }
+  .footer_container .row{
+    position: relative;
+    top: 250px !important;
+    border-top: 1px solid rgb(172, 169, 169);
+    padding: 40px;
+    width: 100%!important;
+  }
+  
+  .footer_h1 h1{
+      text-align: center;
+    padding: 30px;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: -40px;
+    color: #abe2d0;
+    top:20px;
+  
+  }
+  .follow li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+  }
+  .follow a{
+    text-decoration: none;
+    color:rgb(172, 169, 169);
+  
+   }
+  .follow a:hover {
+  
+    border-radius: 2%;
+    transform: scale(1.5);
+    padding: 5px;
+    color: #40c498  ;
+    
+  }
+  
+  .Icons{
+     font-size: 25px;
+     background-color: #fff;
+  
+    }  
+  .footer_container .col2{
+    margin-top: 30px!important;
+  }
+  .copyright{
+    position: relative;
+    top:40px;
+    font-size: 10px;
+   border-top: 1px solid rgb(172, 169, 169);
+  }
+  .copy1 {
+    float: left;
+    margin-left: 50px;
+    color: #abe2d0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  
+  }
+  .copy2 {
+    color: #abe2d0;
+    float: right;
+    margin-right: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  } */
+  
+  
+  
+  /*=======================================SERVICE ServiceContainer====================*/
+  
