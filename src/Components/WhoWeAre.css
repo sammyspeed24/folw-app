@@ -86,7 +86,7 @@ background-color: aqua;
   
 }
 .Content_title{
-  padding-left: 3rem;
+  padding-left: 4rem;
 font-size: 3rem;
 font-weight: bolder;
 color:#fff;
@@ -94,7 +94,7 @@ position: relative;
 }
 .Content_para{
   padding-left: 3rem;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
    color:#fff;
    text-align: justify;
 }
