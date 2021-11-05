@@ -94,7 +94,7 @@ text-align: center;
 font-weight: bold;
 }
 .titleWrapper p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: normal!important;
 }
 @media only screen and (max-width:1024px) {
