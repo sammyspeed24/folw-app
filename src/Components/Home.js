@@ -10,10 +10,7 @@ import { fab, faFacebook,faTwitter,faYoutube,faInstagram } from '@fortawesome/fr
 import { library } from '@fortawesome/fontawesome-svg-core'
 import WhoWeAre from "../Components/WhoWeAre";
 import WelcomeSpech from './WelcomeSpech';
-// import '../App.css';
-import DeptCard from './DeptCard';
 import classes  from '../Components/Home.module.css';
-// import '../Components/Home.css';
 
 library.add(fab, faCoffee, faEnvelope,faFacebook,faTwitter,faYoutube,faInstagram,faPrayingHands,faSearch)
 
@@ -75,13 +72,10 @@ class Home extends Component{
 
 </section>
   <WhoWeAre />
-   {/**=================START OF DEPARTMENT ======================*/}
-    
-<DeptCard />
 <Testimony />
 <ChurchService />
 <ChurchLocation />
-<Footer />
+ <Footer />
   </div>
   );
 }

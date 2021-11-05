@@ -33,11 +33,11 @@
 
 @media only screen and (max-width:568px){
     .locationRow{
-        height:600px;
+        height:520px;
        width:100%;
        position: relative;
        top:0px;
-       margin-bottom: -50px;
+       margin-bottom:0px;
      }
      
      

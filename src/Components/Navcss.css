@@ -2,12 +2,7 @@
 .bg-myGreen{ 
   background-color:#28a745;
 }
-.navbar-light .navbar-toggler {
-  color: #fff!important;
-  border-color:lightskyblue!important;
-  margin-right: 20px!important;
-  padding: 10px!important;
-}
+
 .donate_link{
   color:whitesmoke;
   text-decoration: none;
@@ -18,6 +13,7 @@
   font-weight: bold;
   border:1px solid white;
   text-align: center;
+
 }
 .giving_link{
   color:whitesmoke;
@@ -34,6 +30,7 @@
   color:rgb(12, 163, 168);
    background-color:tomato!important;
    transition: 0.2s all ease-in-out;
+
 }
 .donate_link:hover{
  color:tomato!important;
@@ -66,18 +63,19 @@
   font-weight: bold;
   position: relative;
   top:5px;
-  margin-left:-20px;
-text-shadow:  3px 3px 0 #000;
-  width:250px;
-  padding: 3px;
+  margin-left:-60px;
+  text-shadow:  3px 3px 0 #000;
+  width:300px;
+  padding: 5px;
   font-family: Syne Mono;
+  border:1px solid silver;
+  border-radius: 50px;
 }
 .navbar-logo{
-  width:80px;
+  width: 200px;
   height:80px;
-  border-radius: 30%;
-  position: absolute;
-  top:30px;
+    position: absolute;
+  top:10px;
   z-index: 1;
   text-decoration: none!important; 
 }
@@ -96,13 +94,68 @@ text-shadow:  3px 3px 0 #000;
   }
 }
 
+@media only screen and (max-width: 1024px) {
+ 
+  .navbar-logo{
+    width:80px;
+    height:80px;
+    position: absolute;
+    margin-left: 2rem !important;;
+    top: 8px!important;
+    z-index: 1;
+    text-decoration: none!important;
+    
+  } 
+  .navbar-logo .rccgpix_title {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top:5px;
+    margin-left:-20px;
+    text-shadow:  3px 3px 0 #000;
+    width:300px;
+    padding: 1px;
+    font-family: Syne Mono;
+    text-align: center;
+  
+  }
+
+}
+@media only screen and (max-width:768px){
+  .navbar-logo{
+    width:80px;
+    height:80px;
+    border-radius:none!important;
+    position: absolute;
+    margin-left: 1rem !important;;
+    top: 10px!important;
+    z-index: 1;
+    text-decoration: none!important;
+  
+    
+  } 
+    .navbar-logo .rccgpix_title {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top:5px;
+    margin-left:-20px;
+    text-shadow:  3px 3px 0 #000;
+    width:300px;
+    padding: 1px;
+    font-family: Syne Mono;
+    text-align: center;
+  border: none!important;
+  border-radius:0px;
+  }
+
+}
+
 
 @media only screen and (max-width:568px){
-
-  .navbar-light .navbar-toggler {
-    color: #fff!important;
-    border-color:lightskyblue!important;
-    margin-right:0px!important;
+ .navbar-light .navbar-toggler {
+    border-color:#fff!important;
+    margin-right:10px!important;
     padding: 0px!important;
   }
  
@@ -112,18 +165,18 @@ text-shadow:  3px 3px 0 #000;
   opacity: 1;
   border-radius: 50%;
   pointer-events: none;
-  margin-top: 6px;
-  margin-left:100px;
+  margin-top: -6px;
+  margin-left:0px;
 }
 .navbar-logo .rccgpix_title {
  font-size: 1.1rem;
   font-weight: bold;
   position: relative;
-  top: 0%!important;
-  margin-left:20px !important;
-text-shadow: none;
-  
-
+  top: -50%!important;
+  margin-left:60px !important;
+  border: none!important;
+  border-radius:0px;
+  text-shadow:  3px 3px 0 #000;
 
 }
 .navbar-logo{
@@ -131,35 +184,35 @@ text-shadow: none;
   height:80px;
   border-radius: 30%;
   position: absolute;
-  margin-left: 2rem !important;;
+  margin-left: 2rem !important;
   top: 10px!important;
   z-index: 1;
   text-decoration: none!important;
-  
-} 
+  } 
+
 }
 
 @media only screen and (max-device-width: 480px) {
   .rccgPix {
-    width:3rem;
-    height:3rem;
+    width:2rem;
+    height:2rem;
     opacity: 1;
     border-radius: 50%;
     pointer-events: none;
     margin-top: 6px;
-    margin-left:100px;
+    margin-left:30px;
   }
   .navbar-logo .rccgpix_title {
-   font-size:14px!important;
-    font-weight: bold;
-    position: relative;
-    top: 0%!important;
-    margin-left:20px !important;
-  text-shadow: none;
-    
-  
-  
-  }
+    font-size: .8rem;
+     font-weight: bold;
+     position: relative;
+     top: -50%!important;
+     margin-left:30px !important;
+     border: none!important;
+     border-radius:0px;
+     text-shadow:  3px 3px 0 #000;
+   
+   }
   .navbar-logo{
     width:50px;
     height:50px;
@@ -181,6 +234,11 @@ text-shadow: none;
     background-position: center;
     background-size: 80%!important;
   
+  }
+  .nav-link{
+    color:white!important;
+    font-size: 12px!important;
+    font-weight: bold;
   }
   
 }

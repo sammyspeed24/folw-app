@@ -15,9 +15,9 @@ function DepartmentsPage(){
   return (
 <div className="department">
       <div className="departmentWrapper">
-  <div className="DeptcardsTitle" id="DeptcardsTitle">
+  <div className="DeptcardsTitle">
                 <div className="Deptcards_title wow tada" data-wow-offset="80" data-wow-delay=".5s">
-                     <h1>Join A Dept.</h1>
+                     <h1>CONNECT, GROW & THRIVE</h1>
                 </div>
            </div>                   
             <div id="DeptcardPara">         
@@ -27,7 +27,7 @@ function DepartmentsPage(){
                       </div>{/*============end col=====*/}
                     
 
-           <div className="container"> 
+           <div className="container content-justify-content-center"> 
            <div className="row">
                     <div className="image-container">
                          <div className="image-zoom">

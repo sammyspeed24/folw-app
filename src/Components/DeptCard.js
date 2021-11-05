@@ -14,7 +14,7 @@ function DeptCard(){
           <div className="DeptCards">
                    <div className="DeptCardsWrapper">
                                <div className="DeptcardsTitle wow tada" data-wow-offset="80" data-wow-delay=".5s">
-                                        <h1>Join A Dept.</h1>
+                                        <h1>CONNECT, GROW & THRIVE</h1>
                                </div> 
                                                  
                      <div className="DeptcardPara">         

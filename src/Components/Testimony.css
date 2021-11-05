@@ -175,17 +175,22 @@ font-weight: bold;
   height:100px;
 }
 .titleWrapper {
-  color:silver;
   width:80%;
   margin: auto;
+  padding-left:50px ;
   }
   .titleWrapper h5 {
      font-weight: bold;
-     font-size: 1.5rem;
+     font-size: 1.2rem;
+     position: relative;
+     top: 30px;
+     text-align: center;
+     margin-left: -40px;
    }
    .titleWrapper p {
     font-size: 14px;
     font-weight: normal!important;
+    text-align:center;
   }
 
   

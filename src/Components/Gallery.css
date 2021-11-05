@@ -157,9 +157,9 @@
           }
           .carousel-wrapper{
             width:95%;
-            height: 280px !important;
+            height: 320px !important;
             background-color: transparent;
-            margin-top: 40px;
+            margin-top:-40px!important;
             margin-bottom: 50px;
             margin: auto;                
         

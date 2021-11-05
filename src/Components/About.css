@@ -173,6 +173,11 @@
        }
 
       @media only screen and (max-width:568px) {
+        .About_title {
+          color:#fff;
+          font-size: 5rem!important;
+          font-weight: bold;  
+        }
         .AboutPage{
             width:100%;
             height: 800px!important;
@@ -219,7 +224,7 @@
           .About_banner {
             text-align: center;
             position: absolute;
-            top: 20%!important;
+            top: 17%!important;
             left: 50%;
             transform: translate(-50%, -50%);
           }
@@ -228,7 +233,7 @@
             color:#fff;
             font-size: 2.5rem!important;
             font-weight: bold; 
-            top: -25px!important;
+            top: 0%!important;
             position: relative; 
           }
           

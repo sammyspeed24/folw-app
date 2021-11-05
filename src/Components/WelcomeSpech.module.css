@@ -195,6 +195,19 @@ body {
     position: relative;
     margin: auto !important;
   }
+  .pastorName {
+    color: #222;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-top: 0px;
+  }
+  .pastorChurch {
+    color: #222;
+    font-size: 1rem;
+    text-decoration: italic;
+    color: rgb(33, 104, 175);
+    padding-left: 10px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -206,7 +219,9 @@ body {
     height:auto;
   }
   .WelTitle h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    position: relative;
+    top:-20px;
   }
   .WelcomeSpech .photo {
     width: 90%;
@@ -219,18 +234,32 @@ body {
   }
   .WelcomeSpech .pastorImage {
     width: 90%;
-    height: 250px;
+    height: 200px;
     position: relative;
     margin: auto !important;
     
   }
   .WelcomeSpech .PastorText {
     width: 80%;
-    font-size: 1rem;
+    font-size:12px;
     text-align: center !important;
     position: relative;
     top: 20px;
     margin: auto;
   }
+  .pastorName {
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-top: 0px;
+  }
+  .pastorChurch {
+    color: #222;
+    font-size: .8rem;
+    text-decoration: italic;
+    color: rgb(33, 104, 175);
+    padding-left: 10px;
+  }
+  
   
 }

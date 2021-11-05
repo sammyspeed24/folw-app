@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import React from 'react';
 import {Navbar, Nav,NavDropdown,Container,Button } from 'react-bootstrap'
 import '../Components/Navcss.css';
 import { Link } from 'react-router-dom';
@@ -13,7 +13,7 @@ const CustomNavbar = ()=>{
 
 <Navbar bg="myGreen" expand="sm" fixed="top">
   <Container>
-    <Navbar.Brand href="#home"> {/*=========logoSection*/}
+    <Navbar.Brand> {/*=========logoSection*/}
          <Link to='/' className='navbar-logo wow bounceIn'  data-wow-delay="1s" data-wow-duration="1s" >
          <img src ={pix}  className="rccgPix" alt="pix" />
           <h3 className="text-white rccgpix_title shadow">Fountain Of Living Waters</h3>
@@ -31,6 +31,7 @@ const CustomNavbar = ()=>{
           <NavDropdown.Item href="/gallery/3.3">Gallery</NavDropdown.Item>
           
           <NavDropdown.Item href="/giving/3.4">Give</NavDropdown.Item>   
+          <NavDropdown.Item href="/testimonies/3.5">Testimonies</NavDropdown.Item>  
           </NavDropdown>   
       </Nav>
       <Nav.Link className="giving_link" href="/giving/3.4">Give</Nav.Link>

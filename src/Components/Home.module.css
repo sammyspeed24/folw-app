@@ -24,7 +24,7 @@ html, body {
   z-index:-1;
   left:50%;
   transform :translate(-50%, -50%);
-  background-color: #4c686e;
+  background-color: #3b4749;
   mix-blend-mode: overlay;
 }
 .Videostyle{
@@ -210,16 +210,26 @@ margin: auto;
   
  /*====================================meduia query===================*/   
 @media only screen and (max-width:568px){
-   
+  *{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  html, body {
+    font-size: 15px;
+    color: #222;
+     font-family: "Quicksand", sans-serif;
+    width: 100%!important;
+    height: 100% !important;
+  }
   .InnerWrapper{
     max-width: 900px!important;
     width: 90%;
+    margin: auto;
     text-align: center;
     z-index: 1;
     position: relative;
     top: 50% !important;
-    left:53%;
-    transform :translate(-50%, -50%);
   }
   
   .InnerWrapper .InnerPara{
@@ -300,33 +310,101 @@ margin: auto;
 }
  /*====================================meduia query===================*/   
  @media only screen and (max-width:480px){
-  .InnerWrapper .InnerPara{
-    color: #fff;
-    font-size:2rem;
-    }
-  .sectionThree .para p {
-    font-size: 1.1rem!important;
-    color:white;
+  *{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  html, body {
+    font-size: 15px;
+    color: #222;
+     font-family: "Quicksand", sans-serif;
+    width: 100%!important;
+    height: 100% !important;
+  }
+  .InnerWrapper{
+    max-width: 900px!important;
+    width: 90%;
+    margin: auto;
     text-align: center;
-  }
-  
-  .sectionThree .para  {
-   top: 20px !important;
-  left: 22px!important;
-  
-  }
-  .Scripture2 {
-    font-size: 1rem!important;
-    top: -12px;
+    z-index: 1;
     position: relative;
-    } 
+    top: 50% !important;
+  }
+  
+  .InnerWrapper .InnerPara{
+  color: #fff;
+  font-size:2rem;
+  }
+  .InnerWrapper .Scripture{
+        font-size: 1rem;
+      font-style: italic;
+      color: #fff;
+      font-weight: bolder;
+      background: #20c997!important;
+      padding: 2px;
+       border-radius: 50px;
+
+      width:150px;
+      margin: auto;
+    }
+
+ 
+
+/*========end of covid==============*/
+.sectionThree{
+  width: 100%;
+  height: 250px;
+  position: relative;
+top: 40% !important;
+
+}  
+.sectionThree .para p {
+  font-size: 1rem;
+  color:white;
+}
+
+.sectionThree .para  {
+font-weight: bold;
+text-align: center;
+width: 85%!important;
+margin: auto;
+position: relative;
+top: 15px !important;
+left: 30px !important;
+
+}
+
+.Scripture2 {
+font-size: 12px!important;
+font-style: italic;
+color: #fff;
+font-weight: bolder;
+background: #20c997!important;
+padding: 2px;
+border-radius: 50px;
+text-align: center;
+width:175px;
+margin: auto;
+}
+
+    /*===========COVIDPAGE------========================*/
+    .GuestWrapper{
+      width:100%;
+      height:500px;
+      background-color: #e8ecec;  
+    }
     .Covidwrapper{
       width:90%;
     }
+    .covidPara{
+      width:90%;
+      margin: auto;
+          }
     .covidPara p{
       color:#fff;
       font-size:1rem!important;
-      text-align:center;
+      text-align: center;
+      line-height: 30px;
     }
-    
 }
