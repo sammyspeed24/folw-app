@@ -68,7 +68,7 @@
   width:300px;
   padding: 5px;
   font-family: Syne Mono;
-  border:1px solid silver;
+  border:none;
   border-radius: 50px;
 }
 .navbar-logo{

@@ -7,7 +7,7 @@ import Gallery from './Components/Gallery';
 import Home from './Components/Home';
 import ServicePage from './Components/ServiceDay';
 import Testimony from './Components/Testimony';
-import DownloadPage from './Components/Download';
+
 import ContactPage from './Components/Contact';
 import ConnectPage from './Components/Connect';
 import { BrowserRouter as Router,Route,Switch } from "react-router-dom";
@@ -46,8 +46,7 @@ function App() {
       <Route exact path="/testimonies/3.5" component={Testimony} />  
    
       <Route exact path="/service" component={ServicePage} />
-       <Route exact path="/download" component={DownloadPage} />
- 
+    
     
       <Route exact path="/request" component={SendRequest} />
       <Route exact path="/flipcard" component={FlipCard} />

@@ -1,51 +1,69 @@
 /*===========================*/
 .DonatePage{
   width:100%; 
-  height:100%;
-  background: linear-gradient(rgba(0.6, 0, 0.5, 0.4), rgba(0.6, 0, 0.5, 0.4)),
-    url("../folwImages/folw-contruction.jfif");
-   background-repeat: no-repeat;
+  height:auto;
+    background-repeat: no-repeat;
   background-size: cover;
   background-position:center center;
   margin-top: 0px !important;
+  background:#f5f5f5;
 
+  }
+  .CarouselWrapper{
+    position: relative;
+    margin-bottom: 5%;
+  }
+  .carousel-inner img{
+    width:60%;
+    height:500px;
+    margin: auto;
+    object-fit:fill;
+    position: relative;
+    top:0px;
+  
+    
   }
   .DonatePage-Wrapper{
   margin:0px auto;
   text-align: center; 
   position: relative;
   width:80%;
-  top: 250px;
-  height:800px;
+  top: 50px;
+  padding: 1.5rem;
+
   
   
   }
   .DonatePage-Wrapper h1{
    font-weight: bold;
    font-size: 60px;
-   color:aquamarine;
+
     }
     .DonateScripture{
       font-weight:bold;
-      font-size:2.2rem;
-      color:#fff;
+      font-size:1.2rem;
+      padding: 2rem;
+      width:100!important;
+
     }
        .DonatePage-p{
-        color:aquamarine;
-         font-size: 1.5rem;
+    
+         font-size: 1.1rem;
          font-weight: bolder;
-         position: relative;
-         top:-30px;
+         color:tomato;
          font-style: italic; 
        }
     .AccountNum{
-      position: relative;
-      top:-250px;
+      position: absolute;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
     .AccountNum h2{
-      color:#fff;
-      font-size:3rem;
+        font-size:4rem;
       font-weight:bold;
+      color:#ffff;
+   text-shadow: 4px 4px 4px #000000;
     }
     .uba-img{
       width: 4rem;
@@ -54,131 +72,108 @@
     }
   @media only screen and (max-width:1024px){
     .AccountNum{
-      position: relative;
-      top:200px;
+      position: absolute;
+      top:35%;
+       left: 50%;
+      transform: translate(-50%, -50%);
+    
     }
+    .AccountNum h2{
+      font-size:3rem;
+    font-weight:bold;
+    color:#ffff;
+ text-shadow: 4px 4px 4px #000000;
+  }
 
   }
 
   @media only screen and (max-width:768px){
+    
     .AccountNum{
       position: relative;
       top:-250px;
     }
-    .DonatePage-Wrapper{
-      margin:0px auto;
-      text-align: center; 
-      position: relative;
-      width:90%;
-      top: 250px;
-      height:800px;
-      
-      }
-      .DonatePage-Wrapper h1{
-       font-weight: bold;
-       font-size:3rem;
-       color:aquamarine;
-        }
-      
-      .DonatePage-p{
-       color:aquamarine;
-        font-size: 1.2rem;
-        font-weight: bolder;
-        position: relative;
-        top:-70px;
-        font-style: italic; 
-      }
-        .DonateScripture{
-          font-weight:bold;
-          font-size:2rem;
-          color:#fff;
-          position: relative;
-          top:-20px;
-        
-        }
-
+    .AccountNum h2{
+      font-size:2.5rem;
+    font-weight:bold;
+    color:#ffff;
+ text-shadow: 4px 4px 4px #000000;
+  }
+  .CarouselWrapper{
+    position: relative;
+    margin-bottom: -5%;
+  }
+  
   }
 
   @media only screen and (max-width:568px){
    
     .AccountNum{
       position: relative;
-      top:-200px;
+      top:-120px;
     }
+
+   
     .AccountNum h2{
-      color:#fff;
       font-size:2rem;
-      font-weight: bold;
-    }
-    .DonatePage-p{
-      color:aquamarine;
-       font-size: 1.2rem;
-       font-weight: bolder;
-       position: relative;
-       top:-70px;
-       font-style: italic; 
-     }
-       .DonateScripture{
-         font-weight:bold;
-         font-size:1.5rem;
-         color:#fff;
-         position: relative;
-         left:8px;
-         top:-20px;
-         padding: 23px;
-         
-       
-       }
-       .DonatePage-Wrapper h1{
-        font-weight: bold;
-        font-size:2rem;
-        color:aquamarine;
-         }
+    font-weight:bold;
+    color:#ffff;
+ text-shadow: 4px 4px 4px #000000;
+  }
+  .CarouselWrapper{
+    position: relative;
+    margin-bottom: -10%;
+  }
+  .carousel-inner img{
+    width:60%;
+    height:300px;
+    margin: auto;
+    object-fit:fill;
+    position: relative;
+    top:0px;
+  
+    
+  }
 
 
   }
 
   @media only screen and (max-width:480px){
-         .DonatePage-Wrapper{
-      margin:0px auto;
-      text-align: center; 
-      position: relative;
-      width:100%;
-      top: 150px;
-      height:80vh;
-     }
-     .AccountNum{
-      position: relative;
-      top:-150px;
+    .DonateScripture{
+     
+      width:100!important;
+
     }
+    .uba-img{
+      width: 3rem;
+      height: 3rem;
+      padding-left:6px;
+    }
+      
+    .AccountNum{
+      position: relative;
+      top:-80px;
+    }
+   
     .AccountNum h2{
-      color:#fff;
       font-size:1.5rem;
-      font-weight: bold;
-    }
-    .DonatePage-p{
-      color:aquamarine;
-       font-size: 1rem;
-       font-weight: bolder;
-       position: relative;
-       top:-70px;
-       font-style: italic; 
-     }
-       .DonateScripture{
-         font-weight:bold;
-         font-size:1.1rem;
-         color:#fff;
-         position: relative;
-         left:8px;
-         top:-20px;
-         padding: 23px;
-         
-       
-       }
-       .DonatePage-Wrapper h1{
-        font-weight: bold;
-        font-size:1.6rem;
-        color:aquamarine;
-         }
+    font-weight:bold;
+    color:#ffff;
+ text-shadow: 4px 4px 4px #000000;
+  }
+  .CarouselWrapper{
+    position: relative;
+    margin-bottom: -20%;
+  }
+  .carousel-inner img{
+    width:60%;
+    height:300px;
+    margin: auto;
+    object-fit:fill;
+    position: relative;
+    top:0px;
+  
+    
+  }
 
   }
