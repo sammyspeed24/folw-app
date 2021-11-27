@@ -341,7 +341,7 @@ margin: auto;
     text-align: center;
     z-index: 1;
     position: relative;
-    top: 35% !important;
+    top: 40% !important;
     left:50%;
     transform :translate(-50%, -50%);
   }
@@ -372,6 +372,7 @@ margin: auto;
   .InnerWrapper .InnerPara{
     color: #fff;
     position: relative;
+    top:20%;
     font-size:2.1rem;
     text-shadow: 5px 5px 5px #000;
     left: 10px;
