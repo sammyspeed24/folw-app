@@ -46,7 +46,7 @@ class Home extends Component{
      
         </div> 
         <div className="inner_banner wow slideInLeft" data-wow-delay="2s" data-wow-duration="2s">
-        <div  className={classes.Celebration}><h3> <strong>Celebrating God's Faithfulness . . .</strong></h3></div>  
+        <div  className={classes.Celebration}><h3> <strong>Celebrating God's Faithfulness</strong></h3></div>  
         </div> 
 
         <div className="inner_banner wow fadeInDown" data-wow-delay="3s" data-wow-duration="3s">
